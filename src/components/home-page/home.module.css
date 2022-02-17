@@ -27,7 +27,7 @@
 }
 
 .blue-bkgd-img {
-  position: absolute;
+  position: absolute !important;
   top: -90px;
   bottom: 0;
   right: 0;
@@ -36,7 +36,7 @@
 }
 
 .profile-img {
-  position: absolute;
+  position: absolute !important;
   bottom: 0;
   right: 10vw;
   width: 350px;
