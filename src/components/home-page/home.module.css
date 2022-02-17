@@ -103,7 +103,7 @@
     margin-top: 100px;
   }
   .blue-bkgd-img {
-    position: relative;
+    position: relative !important;
     top: 0;
     width: 100%;
     transform: rotate(90deg);

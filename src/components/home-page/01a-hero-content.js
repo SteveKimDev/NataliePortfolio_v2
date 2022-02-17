@@ -17,7 +17,7 @@ const HersoContent = () => (
       for growing companies. I’d love to see what I can help you with!
     </p>
     <a className={`purple-btn float-shadow ${HomeStyle.heroBtn}`} href='/'>
-      Let's Talk
+      Let's Chat
     </a>
   </div>
 );
