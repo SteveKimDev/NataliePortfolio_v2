@@ -3,7 +3,7 @@
 }
 
 .blue-home-img {
-  position: absolute;
+  position: absolute !important;
   top: 0;
   right: 0;
   width: 50%;
