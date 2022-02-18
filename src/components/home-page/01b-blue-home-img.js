@@ -4,10 +4,10 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import * as HomeStyle from './home.module.css';
 
-const BlueBkgdImg = () => {
+const BlueHomeImg = () => {
   const data = useStaticQuery(graphql`
     {
-      file(relativePath: { eq: "blue-bkgd.png" }) {
+      file(relativePath: { eq: "blue-home.png" }) {
         childImageSharp {
           gatsbyImageData(layout: FULL_WIDTH)
         }
@@ -16,11 +16,11 @@ const BlueBkgdImg = () => {
   `);
   return (
     <GatsbyImage
-      className={HomeStyle.blueBkgdImg}
+      className={HomeStyle.blueHomeImg}
       alt='blue background'
       image={data.file.childImageSharp.gatsbyImageData}
     />
   );
 };
 
-export default BlueBkgdImg;
+export default BlueHomeImg;

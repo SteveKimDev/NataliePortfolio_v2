@@ -1,9 +1,18 @@
-.hero-row {
-  height: 75vh;
+.home-section {
+  position: relative;
 }
 
-.hero-col1 {
+.blue-home-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.hero-section {
   position: relative;
+  height: 80vh;
 }
 
 .hero-col1-div {
@@ -22,47 +31,37 @@
   font-weight: 500;
 }
 
-.hero-col2 {
-  position: relative;
-}
-
 .blue-bkgd-img {
-  position: absolute !important;
-  top: -90px;
-  bottom: 0;
-  right: 0;
-  width: 50vw;
-  z-index: -10000;
+  display: none;
 }
 
 .profile-img {
   position: absolute !important;
-  bottom: 0;
+  bottom: 0px;
   right: 10vw;
   width: 350px;
 }
 
 @media (min-width: 1680px) {
   .profile-img {
-    width: 400px;
+    width: 450px;
   }
 }
 
 /* iPad Pro 12 Landscape View */
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) {
-  .hero-row {
+  .hero-section {
     height: 60vh;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .hero-row {
+  .blue-home-img {
+    width: 55%;
+  }
+  .hero-section {
     height: 70vh;
   }
-  .blue-bkgd-img {
-    width: 55vw;
-  }
-
   .profile-img {
     width: 320px;
   }
@@ -70,13 +69,16 @@
 
 /* iPad Pro 12 Portrait View */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) {
-  .hero-row {
+  .hero-section {
     height: 40vh !important;
   }
 }
 
 @media (max-width: 991px) {
-  .hero-row {
+  .blue-home-img {
+    display: none;
+  }
+  .hero-section {
     height: 100%;
   }
   .hero-col1-div {
@@ -90,9 +92,11 @@
   }
   .hero-title {
     font-size: 5rem;
+    text-align: center;
   }
   .hero-subtitle {
     font-size: 1.5rem;
+    text-align: center;
   }
   .hero-btn {
     display: block;
@@ -100,18 +104,13 @@
     margin-right: auto;
   }
   .hero-col2 {
-    margin-top: 100px;
+    margin-top: 200px;
   }
   .blue-bkgd-img {
-    position: relative !important;
-    top: 0;
-    width: 100%;
-    transform: rotate(90deg);
-    margin-bottom: -4.5vh;
+    display: block;
   }
   .profile-img {
     right: 15vw;
-    bottom: 0;
     width: 70vw;
   }
 }
@@ -125,15 +124,5 @@
   }
   .hero-subtitle {
     font-size: 1.3rem;
-  }
-  .hero-col2 {
-    margin-top: 200px;
-  }
-  .blue-bkgd-img {
-    margin-bottom: -3vh;
-  }
-  .profile-img {
-    right: 5vw;
-    width: 90vw;
   }
 }
