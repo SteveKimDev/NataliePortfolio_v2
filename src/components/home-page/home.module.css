@@ -39,13 +39,7 @@
   position: absolute !important;
   bottom: 0px;
   right: 10vw;
-  width: 350px;
-}
-
-@media (min-width: 1680px) {
-  .profile-img {
-    width: 450px;
-  }
+  width: 25vw;
 }
 
 /* iPad Pro 12 Landscape View */
