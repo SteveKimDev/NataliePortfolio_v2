@@ -52,9 +52,9 @@
 }
 
 .faded-logo {
-  position: absolute;
+  position: absolute !important;
   top: -85px;
-  left: 50px;
+  left: 15px;
   width: 45vw;
   opacity: 0.3;
 }
@@ -110,9 +110,6 @@
     padding-top: 0;
     padding-left: 100px;
     padding-right: 100px;
-  }
-  .faded-logo {
-    left: 10px;
   }
   .subtitle {
     font-size: 1rem;
@@ -178,7 +175,6 @@
   }
   .faded-logo {
     top: 50px;
-    left: 10px;
     width: 70vw;
   }
   .subtitle {
