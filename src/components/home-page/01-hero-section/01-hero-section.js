@@ -1,10 +1,11 @@
 import * as React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import HersoContent from './01a-hero-content';
-import BlueBkgdImg from './01b-blue-bkgd-img';
-import ProfileImg from './01c-profile-img';
+import HersoContent from './02-hero-content';
+import BlueHomeImg from './03-blue-bkgd-img';
+import BlueBkgdMobile from './04-blue-bkgd-mobile-img';
+import ProfileImg from './05-profile-img';
 
-import * as HomeStyle from './home.module.css';
+import * as HomeStyle from '../home.module.css';
 
 const HeroSection = () => (
   <div className={HomeStyle.heroSection}>
@@ -13,7 +14,8 @@ const HeroSection = () => (
         <HersoContent />
       </Col>
       <Col className={HomeStyle.heroCol2} lg={6}>
-        <BlueBkgdImg />
+        <BlueHomeImg />
+        <BlueBkgdMobile />
         <ProfileImg />
       </Col>
     </Row>

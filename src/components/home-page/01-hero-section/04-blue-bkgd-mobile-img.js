@@ -2,12 +2,12 @@ import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import * as HomeStyle from './home.module.css';
+import * as HomeStyle from '../home.module.css';
 
-const BlueBkgdImg = () => {
+const BlueBkgdMobile = () => {
   const data = useStaticQuery(graphql`
     {
-      file(relativePath: { eq: "blue-bkgd.png" }) {
+      file(relativePath: { eq: "blue-bkgd-mobile.png" }) {
         childImageSharp {
           gatsbyImageData(layout: FULL_WIDTH)
         }
@@ -16,11 +16,11 @@ const BlueBkgdImg = () => {
   `);
   return (
     <GatsbyImage
-      className={HomeStyle.blueBkgdImg}
+      className={HomeStyle.blueBkgdMobile}
       alt='blue background'
       image={data.file.childImageSharp.gatsbyImageData}
     />
   );
 };
 
-export default BlueBkgdImg;
+export default BlueBkgdMobile;

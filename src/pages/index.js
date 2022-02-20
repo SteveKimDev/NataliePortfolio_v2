@@ -1,18 +1,15 @@
 import React from 'react';
 import Layout from '../components/layout/layout';
 import Seo from '../components/seo';
-
-import BlueHomeImg from '../components/home-page/01b-blue-home-img';
-import HeroSection from '../components/home-page/01-hero-section';
-
-import * as HomeStyle from '../components/home-page/home.module.css';
+import HeroSection from '../components/home-page/01-hero-section/01-hero-section';
+import StorySection from '../components/home-page/02-story-section/01-story-section';
 
 const HomePage = () => (
-  <div className={HomeStyle.homeSection}>
-    <BlueHomeImg />
+  <div>
     <Layout>
       <Seo title='Natalie Cervantes' />
       <HeroSection />
+      <StorySection />
     </Layout>
   </div>
 );

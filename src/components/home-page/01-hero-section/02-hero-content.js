@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import * as HomeStyle from './home.module.css';
+import * as HomeStyle from '../home.module.css';
 
 const HersoContent = () => (
   <div className={`vert-center ${HomeStyle.heroCol1Div}`}>

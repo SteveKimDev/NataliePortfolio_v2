@@ -1,23 +1,13 @@
-.home-section {
-  position: relative;
-}
-
-.blue-home-img {
-  position: absolute !important;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-}
-
 .hero-section {
   position: relative;
-  height: 80vh;
+  height: 90vh;
+  top: -85px;
 }
 
 .hero-col1-div {
   margin-left: 100px;
   width: 34.5vw;
+  top: 57%;
 }
 
 .hero-title {
@@ -28,10 +18,19 @@
 
 .hero-subtitle {
   font-size: 1.2vw;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .blue-bkgd-img {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1000;
+}
+
+.blue-bkgd-mobile {
   display: none;
 }
 
@@ -45,16 +44,26 @@
 /* iPad Pro 12 Landscape View */
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) {
   .hero-section {
-    height: 60vh;
+    height: 70vh;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .blue-home-img {
+  .blue-bkgd-img {
     width: 55%;
   }
   .hero-section {
-    height: 70vh;
+    height: 80vh;
+  }
+  .hero-col1-div {
+    margin-left: 50px;
+    width: 40vw;
+  }
+  .hero-title {
+    font-size: 3.7rem;
+  }
+  .hero-subtitle {
+    font-size: 0.9rem;
   }
   .profile-img {
     width: 320px;
@@ -64,16 +73,17 @@
 /* iPad Pro 12 Portrait View */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) {
   .hero-section {
-    height: 40vh !important;
+    height: 45vh !important;
   }
 }
 
 @media (max-width: 991px) {
-  .blue-home-img {
+  .blue-bkgd-img {
     display: none;
   }
   .hero-section {
     height: 100%;
+    top: 0;
   }
   .hero-col1-div {
     position: relative;
@@ -89,7 +99,7 @@
     text-align: center;
   }
   .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
   }
   .hero-btn {
@@ -100,8 +110,9 @@
   .hero-col2 {
     margin-top: 200px;
   }
-  .blue-bkgd-img {
+  .blue-bkgd-mobile {
     display: block;
+    z-index: -1000;
   }
   .profile-img {
     right: 15vw;
@@ -114,9 +125,15 @@
     padding: 50px 15px;
   }
   .hero-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .hero-subtitle {
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-title {
+    font-size: 3rem;
   }
 }

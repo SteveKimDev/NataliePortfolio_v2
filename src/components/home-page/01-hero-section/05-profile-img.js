@@ -2,12 +2,12 @@ import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import * as HomeStyle from './home.module.css';
+import * as HomeStyle from '../home.module.css';
 
-const BlueHomeImg = () => {
+const ProfileImg = () => {
   const data = useStaticQuery(graphql`
     {
-      file(relativePath: { eq: "blue-home.png" }) {
+      file(relativePath: { eq: "profile.png" }) {
         childImageSharp {
           gatsbyImageData(layout: FULL_WIDTH)
         }
@@ -16,11 +16,11 @@ const BlueHomeImg = () => {
   `);
   return (
     <GatsbyImage
-      className={HomeStyle.blueHomeImg}
-      alt='blue background'
+      className={HomeStyle.profileImg}
+      alt='profile'
       image={data.file.childImageSharp.gatsbyImageData}
     />
   );
 };
 
-export default BlueHomeImg;
+export default ProfileImg;
