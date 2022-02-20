@@ -36,7 +36,7 @@ function OffCanvasMenu({ name, ...props }) {
             </div>
             <div className={`content-align-center`}>
               <Link
-                to='/'
+                to='/#story'
                 className={`float-shadow header-link`}
                 onClick={handleClose}
               >

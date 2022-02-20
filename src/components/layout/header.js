@@ -21,7 +21,7 @@ const Header = () => (
       </Link>
     </div>
     <div className={`hidden`}>
-      <Link to='/' className={`float-shadow header-link`}>
+      <Link to='/#story' className={`float-shadow header-link`}>
         True Story
       </Link>
     </div>

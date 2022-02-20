@@ -5,7 +5,7 @@ import StoryContent from './03-story-content';
 import * as HomeStyle from '../home.module.css';
 
 const StorySection = () => (
-  <div className={HomeStyle.storySection}>
+  <div className={HomeStyle.storySection} id='story'>
     <FadedLogoImg />
     <StoryContent />
   </div>
