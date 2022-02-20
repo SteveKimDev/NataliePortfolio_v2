@@ -1,9 +1,13 @@
 import * as React from 'react';
 
+import * as HomeStyle from '../home.module.css';
+
 const StoryContent = () => (
   <div>
-    <p>Attitude Is The Difference Between An Ordeal And An Adventure</p>
-    <h2>True Story</h2>
+    <p className={`text-align-center ${HomeStyle.subtitle}`}>
+      Attitude Is The Difference Between An Ordeal And An Adventure
+    </p>
+    <h2 className={`section-title text-align-center mb-2rem`}>True Story</h2>
     <p>
       I specialize in leading multimillion-dollar enterprise digital experience
       implementations for billion-dollar companies.

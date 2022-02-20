@@ -1,3 +1,4 @@
+/* Hero Section */
 .hero-section {
   position: relative;
   height: 90vh;
@@ -28,6 +29,7 @@
   width: 50%;
   height: 100%;
   z-index: -1000;
+  opacity: 0.5;
 }
 
 .blue-bkgd-mobile {
@@ -41,10 +43,44 @@
   width: 25vw;
 }
 
+/* Story Section */
+.story-section {
+  position: relative;
+  padding-top: 115px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.faded-logo {
+  position: absolute;
+  top: -85px;
+  left: 50px;
+  width: 45vw;
+  opacity: 0.3;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* iPad Pro 12 Landscape View */
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) {
   .hero-section {
     height: 70vh;
+  }
+
+  /* Story Section */
+  .story-section {
+    padding-top: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .subtitle {
+    font-size: 1rem;
+    width: 300px;
   }
 }
 
@@ -67,6 +103,20 @@
   }
   .profile-img {
     width: 320px;
+  }
+
+  /* Story Section */
+  .story-section {
+    padding-top: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .faded-logo {
+    left: 10px;
+  }
+  .subtitle {
+    font-size: 1rem;
+    width: 300px;
   }
 }
 
@@ -113,10 +163,27 @@
   .blue-bkgd-mobile {
     display: block;
     z-index: -1000;
+    opacity: 0.5;
   }
   .profile-img {
     right: 15vw;
     width: 70vw;
+  }
+
+  /* Story Section */
+  .story-section {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .faded-logo {
+    top: 50px;
+    left: 10px;
+    width: 70vw;
+  }
+  .subtitle {
+    font-size: 1rem;
+    width: 300px;
   }
 }
 
@@ -129,6 +196,16 @@
   }
   .hero-subtitle {
     font-size: 1.3rem;
+  }
+
+  /* Story Section */
+  .story-section {
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .faded-logo {
+    display: none;
   }
 }
 
