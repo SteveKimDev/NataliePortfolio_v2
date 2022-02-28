@@ -44,6 +44,36 @@
   width: 25vw;
 }
 
+.hero-img-1 {
+  position: absolute;
+  bottom: 45vh;
+  top: 30vh;
+  right: 30vw;
+  width: 7vw;
+}
+
+/* Profile Img Intro Animation */
+.profile-img {
+  -webkit-animation: fade-in 3s 0.5s both;
+  animation: fade-in 3s 0.5s both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Story Section */
 .story-section {
   position: relative;
