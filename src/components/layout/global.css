@@ -101,10 +101,74 @@ a:hover {
 }
 
 .purple-3d {
+  background-color: #cb63ff;
   -webkit-box-shadow: -4px -4px 6px 0px #f4f4f4, 4px 4px 6px 0px #cbcbcb,
     inset -5px -5px 5px 0px #b42bf9, inset 5px 5px 5px 0px #e0a1ff;
   box-shadow: -4px -4px 6px 0px #f4f4f4, 4px 4px 6px 0px #cbcbcb,
     inset -5px -5px 5px 0px #b42bf9, inset 5px 5px 5px 0px #e0a1ff;
+}
+.purple-floater {
+  border-radius: 50%;
+  transform: translatey(0px);
+  -webkit-animation: float 3s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-5px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.floater-fade-in {
+  -webkit-animation: fade-in 2s 0.5s both;
+  animation: fade-in 2s 0.5s both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.floater-10 {
+  width: 10px;
+  height: 10px;
+}
+
+.floater-15 {
+  width: 15px;
+  height: 15px;
+}
+
+.floater-20 {
+  width: 20px;
+  height: 20px;
+}
+
+.floater-25 {
+  width: 25px;
+  height: 25px;
+}
+
+.floater-30 {
+  width: 30px;
+  height: 30px;
 }
 
 .section-title {

@@ -18,6 +18,26 @@ const HeroSection = () => (
       </Col>
       <Col className={` ${HomeStyle.heroCol2}`} lg={6}>
         <div className={HomeStyle.heroCol2Div}></div>
+        <div className={`floater-fade-in`}>
+          <div
+            className={`purple-3d purple-floater floater-30 ${HomeStyle.floaterOne}`}
+          />
+          <div
+            className={`purple-3d purple-floater floater-25 ${HomeStyle.floaterTwo}`}
+          />
+          <div
+            className={`purple-3d purple-floater floater-15 ${HomeStyle.floaterThree}`}
+          />
+          <div
+            className={`purple-3d purple-floater floater-20 ${HomeStyle.floaterFour}`}
+          />
+          <div
+            className={`purple-3d purple-floater floater-10 ${HomeStyle.floaterFive}`}
+          />
+          <div
+            className={`purple-3d purple-floater floater-10 ${HomeStyle.floaterSix}`}
+          />
+        </div>
         <ProfileImg />
         <Parallax speed={-2}>
           <HeroImg1 />
