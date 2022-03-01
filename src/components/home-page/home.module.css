@@ -1,14 +1,14 @@
 /* Hero Section */
+
 .hero-section {
-  position: relative;
-  height: 90vh;
-  top: -85px;
+  padding-bottom: 100px;
 }
 
 .hero-col1-div {
-  margin-left: 100px;
   width: 34.5vw;
-  top: 57%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 100px;
 }
 
 .hero-title {
@@ -23,39 +23,27 @@
   text-transform: uppercase;
 }
 
-.blue-bkgd-img {
-  position: absolute !important;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  z-index: -1000;
-  opacity: 0.5;
+.hero-col2 {
+  position: relative !important;
 }
 
-.blue-bkgd-mobile {
-  display: none;
+.hero-col2-div {
+  position: relative !important;
+  background-color: #6ccaff;
+  opacity: 0.1;
+  margin-top: -85px;
+  width: 100%;
+  height: calc(100% + 85px);
+  clip-path: circle(80% at 86% 55%);
 }
 
 .profile-img {
   position: absolute !important;
-  bottom: 0px;
+  bottom: 0;
   right: 10vw;
-  width: 25vw;
-}
-
-.hero-img-1 {
-  position: absolute;
-  bottom: 45vh;
-  top: 30vh;
-  right: 30vw;
-  width: 7vw;
-}
-
-/* Profile Img Intro Animation */
-.profile-img {
-  -webkit-animation: fade-in 3s 0.5s both;
-  animation: fade-in 3s 0.5s both;
+  width: 350px;
+  -webkit-animation: fade-in 3s 0s both;
+  animation: fade-in 3s 0s both;
 }
 @-webkit-keyframes fade-in {
   0% {
@@ -74,10 +62,258 @@
   }
 }
 
+.hero-img1 {
+  position: absolute !important;
+  right: 65%;
+  bottom: 350px;
+  width: 100px;
+  -webkit-animation: fade-in 2s 0.25s both;
+  animation: fade-in 2s 0.25s both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero-img2 {
+  position: absolute !important;
+  right: 10%;
+  bottom: 325px;
+  width: 100px;
+  -webkit-animation: fade-in 2s 0.5s both;
+  animation: fade-in 2s 0.5s both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero-img3 {
+  position: absolute !important;
+  right: 73%;
+  bottom: 10px;
+  width: 100px;
+  -webkit-animation: fade-in 2s 0.75s both;
+  animation: fade-in 2s 0.75s both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero-img4 {
+  position: absolute !important;
+  right: 5%;
+  bottom: 50px;
+  width: 100px;
+  -webkit-animation: fade-in 2s 1s both;
+  animation: fade-in 2s 1s both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1920px) {
+  .hero-img1 {
+    bottom: 400px;
+    right: 55%;
+  }
+  .hero-img3 {
+    right: 65%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero-col1-div {
+    margin-left: 200px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .profile-img {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .hero-col1-div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-col1-div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: auto;
+  }
+  .hero-title {
+    font-size: 3.7rem;
+  }
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+  .profile-img {
+    width: 320px;
+  }
+  .hero-img1 {
+    right: 70%;
+  }
+  .hero-img3 {
+    right: 80%;
+  }
+  .hero-img4 {
+    right: 1%;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-section {
+    padding-bottom: 0;
+  }
+  .hero-col1-div {
+    width: auto;
+    margin: 0;
+    padding: 50px;
+  }
+  .hero-title {
+    font-size: 5rem;
+    text-align: center;
+  }
+  .hero-subtitle {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .hero-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-col2 {
+    margin-top: 150px;
+  }
+  .hero-col2-div {
+    margin-top: 0;
+    height: 700px;
+    clip-path: circle(88.2% at 49% 100%);
+  }
+  .profile-img {
+    right: 18vw;
+    width: 500px;
+  }
+  .hero-img1 {
+    bottom: 500px;
+    right: 70%;
+  }
+  .hero-img2 {
+    bottom: 425px;
+    right: 8%;
+  }
+  .hero-img3 {
+    right: 80%;
+  }
+  .hero-img4 {
+    right: 5%;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-col1-div {
+    padding: 50px 15px;
+  }
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+  .hero-col2-div {
+    margin-top: 0;
+    height: 400px;
+    clip-path: circle(88.2% at 49% 100%);
+  }
+  .profile-img {
+    right: 10vw;
+    width: 300px;
+  }
+  .hero-img1 {
+    bottom: 300px;
+    right: 70%;
+  }
+  .hero-img2 {
+    bottom: 350px;
+    right: 7%;
+  }
+  .hero-img3 {
+    right: 70%;
+  }
+  .hero-img4 {
+    right: 4%;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+/* End Hero Section */
+
 /* Story Section */
 .story-section {
   position: relative;
-  padding-top: 115px;
+  padding-top: 100px;
   padding-left: 150px;
   padding-right: 150px;
 }
@@ -100,11 +336,6 @@
 }
 /* iPad Pro 12 Landscape View */
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) {
-  .hero-section {
-    height: 70vh;
-  }
-
-  /* Story Section */
   .story-section {
     padding-top: 0;
     padding-left: 100px;
@@ -117,27 +348,6 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .blue-bkgd-img {
-    width: 55%;
-  }
-  .hero-section {
-    height: 80vh;
-  }
-  .hero-col1-div {
-    margin-left: 50px;
-    width: 40vw;
-  }
-  .hero-title {
-    font-size: 3.7rem;
-  }
-  .hero-subtitle {
-    font-size: 0.9rem;
-  }
-  .profile-img {
-    width: 320px;
-  }
-
-  /* Story Section */
   .story-section {
     padding-top: 0;
     padding-left: 100px;
@@ -149,57 +359,7 @@
   }
 }
 
-/* iPad Pro 12 Portrait View */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) {
-  .hero-section {
-    height: 45vh !important;
-  }
-}
-
 @media (max-width: 991px) {
-  .blue-bkgd-img {
-    display: none;
-  }
-  .hero-section {
-    height: 100%;
-    top: 0;
-  }
-  .hero-col1-div {
-    position: relative;
-    top: 0;
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
-    width: 100%;
-    margin: 0;
-    padding: 50px;
-  }
-  .hero-title {
-    font-size: 5rem;
-    text-align: center;
-  }
-  .hero-subtitle {
-    font-size: 1.4rem;
-    text-align: center;
-  }
-  .hero-btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .hero-col2 {
-    margin-top: 200px;
-  }
-  .blue-bkgd-mobile {
-    display: block;
-    z-index: -1000;
-    opacity: 0.5;
-  }
-  .profile-img {
-    right: 15vw;
-    width: 70vw;
-  }
-
-  /* Story Section */
   .story-section {
     padding-top: 100px;
     padding-left: 100px;
@@ -216,29 +376,11 @@
 }
 
 @media (max-width: 575px) {
-  .hero-col1-div {
-    padding: 50px 15px;
-  }
-  .hero-title {
-    font-size: 3.5rem;
-  }
-  .hero-subtitle {
-    font-size: 1.3rem;
-  }
-
-  /* Story Section */
   .story-section {
-    padding-top: 100px;
     padding-left: 15px;
     padding-right: 15px;
   }
   .faded-logo {
     display: none;
-  }
-}
-
-@media (max-width: 390px) {
-  .hero-title {
-    font-size: 3rem;
   }
 }

@@ -3,7 +3,7 @@ import * as React from 'react';
 import * as HomeStyle from '../home.module.css';
 
 const HersoContent = () => (
-  <div className={`vert-center ${HomeStyle.heroCol1Div}`}>
+  <div className={`${HomeStyle.heroCol1Div}`}>
     <h1 className={HomeStyle.heroTitle}>Hi, I'm Natalie</h1>
     <p className={HomeStyle.heroSubtitle}>
       I ARCHITECT MODERN DIGITAL EXPERIENCE SYSTEMS

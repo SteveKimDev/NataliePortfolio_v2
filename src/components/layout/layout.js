@@ -1,5 +1,6 @@
 import * as React from 'react';
 import SSRProvider from 'react-bootstrap/SSRProvider';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import Header from './header';
 
@@ -10,7 +11,9 @@ const Layout = ({ children }) => {
   return (
     <SSRProvider>
       <Header />
-      <main>{children}</main>
+      <ParallaxProvider scrollAxis='vertical'>
+        <main>{children}</main>
+      </ParallaxProvider>
     </SSRProvider>
   );
 };
