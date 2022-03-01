@@ -311,12 +311,12 @@
     right: 65%;
   }
   .floater-two {
-    bottom: 91%;
-    right: 25%;
+    bottom: 90%;
+    right: 18%;
   }
   .floater-three {
-    bottom: 88%;
-    right: 31%;
+    bottom: 80%;
+    right: 30%;
   }
   .floater-four {
     right: 80%;
@@ -329,6 +329,10 @@
   }
   .hero-img1 {
     right: 70%;
+  }
+  .hero-img2 {
+    bottom: 280px;
+    right: 3%;
   }
   .hero-img3 {
     right: 80%;
@@ -403,7 +407,7 @@
     width: 130px;
   }
   .hero-img3 {
-    right: 75%;
+    right: 80%;
     width: 130px;
   }
   .hero-img4 {
