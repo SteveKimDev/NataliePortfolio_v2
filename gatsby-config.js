@@ -12,6 +12,7 @@ module.exports = {
     siteUrl: `https://nataliecervantes.com`,
   },
   plugins: [
+    'gatsby-plugin-netlify',
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-image',
     'gatsby-transformer-sharp',
