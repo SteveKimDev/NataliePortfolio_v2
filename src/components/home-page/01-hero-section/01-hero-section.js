@@ -11,7 +11,7 @@ import HeroImg4 from './07-hero-img-4';
 import * as HomeStyle from '../home.module.css';
 
 const HeroSection = () => (
-  <div className={HomeStyle.heroSection}>
+  <div>
     <Row>
       <Col lg={6}>
         <HersoContent />
