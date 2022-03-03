@@ -34,37 +34,37 @@
 
 .floater-one {
   position: absolute !important;
-  bottom: 85%;
-  right: 70%;
+  bottom: 600px;
+  left: 30%;
 }
 
 .floater-two {
   position: absolute !important;
-  bottom: 83%;
+  bottom: 540px;
   right: 20%;
 }
 
 .floater-three {
   position: absolute !important;
-  bottom: 75%;
+  bottom: 500px;
   right: 28%;
 }
 
 .floater-four {
   position: absolute !important;
-  bottom: 45%;
-  right: 75%;
+  bottom: 300px;
+  left: 25%;
 }
 
 .floater-five {
   position: absolute !important;
-  bottom: 35%;
-  right: 80%;
+  bottom: 250px;
+  left: 20%;
 }
 
 .floater-six {
   position: absolute !important;
-  bottom: 45%;
+  bottom: 280px;
   right: 10%;
 }
 
@@ -95,7 +95,7 @@
 
 .hero-img1 {
   position: absolute !important;
-  right: 65%;
+  left: 20%;
   bottom: 350px;
   width: 110px;
   -webkit-animation: fade-in 2s 0.25s both;
@@ -145,7 +145,7 @@
 
 .hero-img3 {
   position: absolute !important;
-  right: 73%;
+  left: 12%;
   bottom: 10px;
   width: 110px;
   -webkit-animation: fade-in 2s 0.75s both;
@@ -195,7 +195,8 @@
 
 @media (min-width: 1920px) {
   .floater-one {
-    right: 60%;
+    bottom: 620px;
+    left: 40%;
   }
   .floater-two {
     right: 18%;
@@ -204,18 +205,15 @@
     right: 26%;
   }
   .floater-four {
-    right: 64%;
+    left: 36%;
   }
   .floater-five {
-    right: 69%;
-  }
-  .floater-six {
-    bottom: 40%;
+    left: 30%;
   }
   .hero-img1 {
     width: 130px;
     bottom: 400px;
-    right: 55%;
+    left: 30%;
   }
   .hero-img2 {
     width: 130px;
@@ -223,26 +221,16 @@
   }
   .hero-img3 {
     width: 130px;
-    right: 62%;
+    left: 25%;
   }
   .hero-img4 {
     width: 130px;
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1600px) and (max-width: 1919px) {
   .hero-col1-div {
     margin-left: 200px;
-  }
-
-  .floater-four {
-    bottom: 42%;
-  }
-  .floater-five {
-    bottom: 33%;
-  }
-  .floater-six {
-    bottom: 40%;
   }
   .hero-img1 {
     width: 130px;
@@ -253,14 +241,29 @@
   }
   .hero-img3 {
     width: 130px;
-    right: 68%;
+    left: 20%;
   }
   .hero-img4 {
     width: 130px;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1679px) {
+  .floater-one {
+    bottom: 650px;
+  }
+  .floater-two {
+    bottom: 600px;
+  }
+  .floater-three {
+    bottom: 560px;
+  }
+  .floater-four {
+    left: 20%;
+  }
+  .floater-five {
+    left: 15%;
+  }
   .hero-img1 {
     width: 120px;
     bottom: 400px;
@@ -272,6 +275,7 @@
   }
   .hero-img3 {
     width: 120px;
+    left: 10%;
   }
   .hero-img4 {
     width: 120px;
@@ -285,6 +289,13 @@
   .hero-col1-div {
     margin-top: 100px;
     margin-bottom: 100px;
+  }
+}
+
+/* iPad Pro 12 Landscape View */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) {
+  .floater-one {
+    bottom: 550px;
   }
 }
 
@@ -302,35 +313,39 @@
     font-size: 0.9rem;
   }
   .floater-one {
-    bottom: 95%;
-    right: 65%;
+    bottom: 500px;
+    left: 5%;
   }
   .floater-two {
-    bottom: 90%;
+    bottom: 450px;
     right: 18%;
   }
   .floater-three {
-    bottom: 80%;
+    bottom: 420px;
     right: 30%;
   }
   .floater-four {
-    right: 80%;
+    bottom: 300px;
+    left: 15%;
   }
   .floater-five {
-    right: 86%;
+    left: 10%;
+  }
+  .floater-six {
+    bottom: 250px;
   }
   .profile-img {
     width: 320px;
   }
   .hero-img1 {
-    right: 70%;
+    left: 10%;
   }
   .hero-img2 {
     bottom: 280px;
     right: 3%;
   }
   .hero-img3 {
-    right: 80%;
+    left: 0%;
   }
   .hero-img4 {
     right: 1%;
@@ -365,24 +380,27 @@
     clip-path: circle(88.2% at 49% 100%);
   }
   .floater-one {
-    bottom: 100%;
-    right: 75%;
+    bottom: 750px;
+    left: 25%;
   }
   .floater-two {
-    bottom: 95%;
+    bottom: 700px;
     right: 20%;
   }
   .floater-three {
-    bottom: 85%;
+    bottom: 650px;
     right: 28%;
   }
   .floater-four {
-    bottom: 60%;
-    right: 80%;
+    bottom: 400px;
+    left: 15%;
   }
   .floater-five {
-    bottom: 45%;
-    right: 90%;
+    bottom: 300px;
+    left: 10%;
+  }
+  .floater-six {
+    bottom: 400px;
   }
   .profile-img {
     right: 18vw;
@@ -390,16 +408,16 @@
   }
   .hero-img1 {
     bottom: 500px;
-    right: 70%;
+    left: 12%;
     width: 130px;
   }
   .hero-img2 {
-    bottom: 425px;
+    bottom: 480px;
     right: 7%;
     width: 130px;
   }
   .hero-img3 {
-    right: 80%;
+    left: 5%;
     width: 130px;
   }
   .hero-img4 {
@@ -424,30 +442,31 @@
     clip-path: circle(88.2% at 49% 100%);
   }
   .floater-one {
-    bottom: 90%;
+    bottom: 520px;
   }
   .floater-two {
-    bottom: 130%;
+    bottom: 540px;
   }
   .floater-three {
-    bottom: 125%;
+    bottom: 520px;
   }
   .floater-four {
-    right: 83%;
+    bottom: 250px;
+    left: 10%;
   }
   .floater-five {
-    bottom: 50%;
+    bottom: 200px;
   }
   .floater-six {
-    bottom: 60%;
+    bottom: 280px;
   }
   .profile-img {
     right: 13vw;
     width: 300px;
   }
   .hero-img1 {
-    bottom: 400px;
-    right: 70%;
+    bottom: 300px;
+    left: 5%;
     width: 100px;
   }
   .hero-img2 {
@@ -456,7 +475,7 @@
     width: 100px;
   }
   .hero-img3 {
-    right: 70%;
+    left: 10%;
     width: 100px;
   }
   .hero-img4 {
@@ -470,13 +489,18 @@
     font-size: 3rem;
   }
   .floater-one {
-    right: 80%;
+    bottom: 600px;
+    left: 5%;
   }
   .floater-four {
-    right: 88%;
+    bottom: 350px;
   }
   .floater-five {
-    right: 93%;
+    bottom: 300px;
+  }
+  .hero-img1 {
+    bottom: 400px;
+    left: 3%;
   }
 }
 /* End Hero Section */
@@ -591,43 +615,43 @@
 
 .floater-seven {
   position: absolute !important;
-  top: 20%;
+  bottom: 450px;
 }
 
 .floater-eight {
   position: absolute !important;
-  top: 25%;
-  left: 15%;
+  bottom: 400px;
+  left: 10%;
 }
 
 .floater-nine {
   position: absolute !important;
-  top: 40%;
-  right: 8%;
+  bottom: 350px;
+  right: -3%;
 }
 
 .floater-ten {
   position: absolute !important;
-  top: 50%;
-  right: 3%;
+  bottom: 300px;
+  right: -10%;
 }
 
 .floater-eleven {
   position: absolute !important;
-  top: 70%;
-  right: 7%;
+  bottom: 200px;
+  right: -7%;
 }
 
 .floater-twelve {
   position: absolute !important;
-  bottom: 10%;
-  left: 3%;
+  bottom: -50px;
+  left: -10%;
 }
 
 .floater-thirteen {
   position: absolute !important;
-  bottom: 15%;
-  left: 7%;
+  bottom: -30px;
+  left: -5%;
 }
 
 @media (min-width: 1920px) {

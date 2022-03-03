@@ -10,7 +10,9 @@ const StorySection = () => (
     <Parallax speed={-5}>
       <FadedLogoImg />
     </Parallax>
-    <StoryContent />
+    <Parallax speed={5}>
+      <StoryContent />
+    </Parallax>
   </div>
 );
 
