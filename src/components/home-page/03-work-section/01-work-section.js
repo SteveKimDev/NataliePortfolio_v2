@@ -1,27 +1,29 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import { Parallax } from 'react-scroll-parallax';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Row, Col } from 'react-bootstrap';
-import WorkImg1 from './02-work-img-1';
-import WorkImg2 from './03-work-img-2';
-import WorkImg3 from './04-work-img-3';
-import WorkImg4 from './05-work-img-4';
-import FloaterDivs from './06-floater-divs';
+import WorkContent from './02-work-content';
+import WorkImg1 from './03-work-img-1';
+import WorkImg2 from './04-work-img-2';
+import WorkImg3 from './05-work-img-3';
+import WorkImg4 from './06-work-img-4';
+import FloaterDivs from './07-floater-divs';
 
 import * as HomeStyle from '../home.module.css';
 
 const WorkSection = () => (
-  <div className={`section ${HomeStyle.workSection}`}>
-    <Parallax speed={5}>
-      <h3 className={`section-title text-align-center mb-2rem`}>Work</h3>
-      <p className={`text-align-center ${HomeStyle.workDescription}`}>
-        I’m excited to share with you some of my accomplishments. Tap the icons
-        below to learn more about my Agile coaching work, my experience as a
-        Digital Product Manager, or take a look at some of my favorite personal
-        web projects so far!
-      </p>
+  <div className={`section ${HomeStyle.workSection}`} id='work'>
+    <Parallax speed={2}>
+      <WorkContent />
+    </Parallax>
 
+    <AnimationOnScroll
+      animateIn='animate__fadeIn'
+      animateOut='animate__fadeOut'
+    >
       <Row className={HomeStyle.workRow}>
+        {/* tab 1 */}
         <Col lg={3} sm={6}>
           <div className={`float-shadow white-btn ${HomeStyle.workTab}`}>
             <WorkImg1 />
@@ -33,6 +35,8 @@ const WorkSection = () => (
             </Link>
           </div>
         </Col>
+
+        {/* tab 2 */}
         <Col lg={3} sm={6}>
           <div className={`float-shadow white-btn ${HomeStyle.workTab} `}>
             <WorkImg2 />
@@ -44,6 +48,8 @@ const WorkSection = () => (
             </Link>
           </div>
         </Col>
+
+        {/* tab 3 */}
         <Col lg={3} sm={6}>
           <div className={`float-shadow white-btn ${HomeStyle.workTab} `}>
             <WorkImg3 />
@@ -55,6 +61,8 @@ const WorkSection = () => (
             </Link>
           </div>
         </Col>
+
+        {/* tab 4 */}
         <Col lg={3} sm={6}>
           <div className={`float-shadow white-btn ${HomeStyle.workTab} `}>
             <WorkImg4 />
@@ -67,10 +75,8 @@ const WorkSection = () => (
           </div>
         </Col>
       </Row>
-    </Parallax>
-    <Parallax speed={-3}>
-      <FloaterDivs />
-    </Parallax>
+    </AnimationOnScroll>
+    <FloaterDivs />
   </div>
 );
 

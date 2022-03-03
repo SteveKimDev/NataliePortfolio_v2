@@ -6,14 +6,14 @@ import * as HomeStyle from '../home.module.css';
 const FloaterDivs = () => (
   <div className={`floater-fade-in`}>
     {/* group 1 */}
-    <Parallax speed={5}>
+    <Parallax speed={-2}>
       <div
         className={`purple-3d purple-floater floater-30 ${HomeStyle.floaterOne}`}
       />
     </Parallax>
 
     {/* group 2 */}
-    <Parallax speed={3}>
+    <Parallax speed={-2}>
       <div
         className={`purple-3d purple-floater floater-25 ${HomeStyle.floaterTwo}`}
       />
@@ -23,7 +23,7 @@ const FloaterDivs = () => (
     </Parallax>
 
     {/* group 3 */}
-    <Parallax speed={4}>
+    <Parallax speed={-4}>
       <div
         className={`purple-3d purple-floater floater-20 ${HomeStyle.floaterFour}`}
       />
@@ -33,7 +33,7 @@ const FloaterDivs = () => (
     </Parallax>
 
     {/* group 4 */}
-    <Parallax speed={2}>
+    <Parallax speed={-5}>
       <div
         className={`purple-3d purple-floater floater-10 ${HomeStyle.floaterSix}`}
       />

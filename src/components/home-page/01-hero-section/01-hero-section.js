@@ -15,22 +15,32 @@ const HeroSection = () => (
   <div>
     <Row>
       <Col lg={6}>
-        <HersoContent />
+        <Parallax speed={-5}>
+          <HersoContent />
+        </Parallax>
       </Col>
       <Col className={` ${HomeStyle.heroCol2}`} lg={6}>
         <div className={HomeStyle.heroCol2Div}></div>
-        <FloaterDivs />
         <ProfileImg />
-        <Parallax speed={-3}>
+        <FloaterDivs />
+
+        {/* img 1 */}
+        <Parallax speed={5}>
           <HeroImg1 />
         </Parallax>
-        <Parallax speed={-2}>
+
+        {/* img 2 */}
+        <Parallax speed={2}>
           <HeroImg2 />
         </Parallax>
-        <Parallax speed={-2}>
+
+        {/* img 3 */}
+        <Parallax speed={4}>
           <HeroImg3 />
         </Parallax>
-        <Parallax speed={-3}>
+
+        {/* img 4 */}
+        <Parallax speed={5}>
           <HeroImg4 />
         </Parallax>
       </Col>

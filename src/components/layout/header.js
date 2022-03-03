@@ -26,19 +26,22 @@ const Header = () => (
       </Link>
     </div>
     <div className={`hidden`}>
-      <Link to='/' className={`float-shadow header-link`}>
+      <Link to='/#work' className={`float-shadow header-link`}>
         Work
       </Link>
     </div>
     <div className={`hidden`}>
-      <Link to='/' className={`float-shadow header-link`}>
+      <Link to='/#experience' className={`float-shadow header-link`}>
         Experience
       </Link>
     </div>
     <div className={`hidden`}>
-      <Link to='/' className={`float-shadow header-link`}>
+      <a
+        href='mailto:natalie.cervantes@gmail.com'
+        className={`float-shadow header-link`}
+      >
         Contact
-      </Link>
+      </a>
     </div>
     <div className={`ms-auto hidden`}>
       <div to='/' className={`float-shadow header-div`}>

@@ -1,11 +1,14 @@
 import * as React from 'react';
-import { Parallax } from 'react-scroll-parallax';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 import * as HomeStyle from '../home.module.css';
 
 const HersoContent = () => (
-  <Parallax speed={5}>
-    <div className={`${HomeStyle.heroCol1Div}`}>
+  <div className={`${HomeStyle.heroCol1Div}`}>
+    <AnimationOnScroll
+      animateIn='animate__fadeIn'
+      animateOut='animate__fadeOut'
+    >
       <h1 className={HomeStyle.heroTitle}>Hi, I'm Natalie</h1>
       <p className={HomeStyle.heroSubtitle}>
         I ARCHITECT MODERN DIGITAL EXPERIENCE SYSTEMS
@@ -22,8 +25,8 @@ const HersoContent = () => (
       <a className={`purple-btn float-shadow ${HomeStyle.heroBtn}`} href='/'>
         Let's Chat
       </a>
-    </div>
-  </Parallax>
+    </AnimationOnScroll>
+  </div>
 );
 
 export default HersoContent;
