@@ -10,26 +10,25 @@ import WorkImg3 from './05-work-img-3';
 import WorkImg4 from './06-work-img-4';
 import FloaterDivs from './07-floater-divs';
 
-import * as HomeStyle from '../home.module.css';
+import * as WorkStyle from './work.module.css';
 
 const WorkSection = () => (
-  <div className={`section ${HomeStyle.workSection}`} id='work'>
-    <Parallax speed={2}>
+  <div className={`section ${WorkStyle.workSection}`} id='work'>
+    <Parallax speed={5}>
       <WorkContent />
     </Parallax>
-
     <AnimationOnScroll
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'
     >
-      <Row className={HomeStyle.workRow}>
+      <Row className={WorkStyle.workRow}>
         {/* tab 1 */}
         <Col lg={3} sm={6}>
-          <div className={`float-shadow white-btn ${HomeStyle.workTab}`}>
+          <div className={`float-shadow white-btn ${WorkStyle.workTab}`}>
             <WorkImg1 />
             <Link
               to='/'
-              className={`float-shadow purple-btn ${HomeStyle.workLink}`}
+              className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               Agile Coaching
             </Link>
@@ -38,11 +37,11 @@ const WorkSection = () => (
 
         {/* tab 2 */}
         <Col lg={3} sm={6}>
-          <div className={`float-shadow white-btn ${HomeStyle.workTab} `}>
+          <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg2 />
             <Link
               to='/'
-              className={`float-shadow purple-btn ${HomeStyle.workLink}`}
+              className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               Product Management
             </Link>
@@ -51,11 +50,11 @@ const WorkSection = () => (
 
         {/* tab 3 */}
         <Col lg={3} sm={6}>
-          <div className={`float-shadow white-btn ${HomeStyle.workTab} `}>
+          <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg3 />
             <Link
               to='/'
-              className={`float-shadow purple-btn ${HomeStyle.workLink}`}
+              className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               First String Web Project
             </Link>
@@ -64,11 +63,11 @@ const WorkSection = () => (
 
         {/* tab 4 */}
         <Col lg={3} sm={6}>
-          <div className={`float-shadow white-btn ${HomeStyle.workTab} `}>
+          <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg4 />
             <Link
               to='/'
-              className={`float-shadow purple-btn ${HomeStyle.workLink}`}
+              className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               Las Uvas Web Project
             </Link>

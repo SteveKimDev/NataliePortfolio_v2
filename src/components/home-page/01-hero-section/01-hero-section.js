@@ -9,7 +9,7 @@ import HeroImg2 from './05-hero-img-2';
 import HeroImg3 from './06-hero-img-3';
 import HeroImg4 from './07-hero-img-4';
 
-import * as HomeStyle from '../home.module.css';
+import * as HeroStyle from './hero.module.css';
 
 const HeroSection = () => (
   <div>
@@ -19,8 +19,8 @@ const HeroSection = () => (
           <HersoContent />
         </Parallax>
       </Col>
-      <Col className={` ${HomeStyle.heroCol2}`} lg={6}>
-        <div className={HomeStyle.heroCol2Div}></div>
+      <Col className={` ${HeroStyle.heroCol2}`} lg={6}>
+        <div className={HeroStyle.heroCol2Div}></div>
         <ProfileImg />
         <FloaterDivs />
 

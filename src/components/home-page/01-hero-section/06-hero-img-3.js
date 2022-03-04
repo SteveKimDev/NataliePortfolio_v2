@@ -2,7 +2,7 @@ import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import * as HomeStyle from '../home.module.css';
+import * as HeroStyle from './hero.module.css';
 
 const HeroImg3 = () => {
   const data = useStaticQuery(graphql`
@@ -16,7 +16,7 @@ const HeroImg3 = () => {
   `);
   return (
     <GatsbyImage
-      className={HomeStyle.heroImg3}
+      className={HeroStyle.heroImg3}
       alt='hero img 3'
       image={data.file.childImageSharp.gatsbyImageData}
     />

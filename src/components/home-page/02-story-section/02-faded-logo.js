@@ -2,7 +2,7 @@ import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import * as HomeStyle from '../home.module.css';
+import * as StoryStyle from './story.module.css';
 
 const FadedLogoImg = () => {
   const data = useStaticQuery(graphql`
@@ -16,7 +16,7 @@ const FadedLogoImg = () => {
   `);
   return (
     <GatsbyImage
-      className={HomeStyle.fadedLogo}
+      className={StoryStyle.fadedLogo}
       alt='logo background'
       image={data.file.childImageSharp.gatsbyImageData}
     />

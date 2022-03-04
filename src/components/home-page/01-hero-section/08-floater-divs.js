@@ -1,41 +1,41 @@
 import * as React from 'react';
 import { Parallax } from 'react-scroll-parallax';
 
-import * as HomeStyle from '../home.module.css';
+import * as HeroStyle from './hero.module.css';
 
 const FloaterDivs = () => (
   <div className={`floater-fade-in`}>
     {/* group 1 */}
     <Parallax speed={-2}>
       <div
-        className={`purple-3d purple-floater floater-30 ${HomeStyle.floaterOne}`}
+        className={`purple-3d purple-floater floater-30 ${HeroStyle.floaterOne}`}
       />
     </Parallax>
 
     {/* group 2 */}
     <Parallax speed={-2}>
       <div
-        className={`purple-3d purple-floater floater-25 ${HomeStyle.floaterTwo}`}
+        className={`purple-3d purple-floater floater-25 ${HeroStyle.floaterTwo}`}
       />
       <div
-        className={`purple-3d purple-floater floater-15 ${HomeStyle.floaterThree}`}
+        className={`purple-3d purple-floater floater-15 ${HeroStyle.floaterThree}`}
       />
     </Parallax>
 
     {/* group 3 */}
     <Parallax speed={-4}>
       <div
-        className={`purple-3d purple-floater floater-20 ${HomeStyle.floaterFour}`}
+        className={`purple-3d purple-floater floater-20 ${HeroStyle.floaterFour}`}
       />
       <div
-        className={`purple-3d purple-floater floater-10 ${HomeStyle.floaterFive}`}
+        className={`purple-3d purple-floater floater-10 ${HeroStyle.floaterFive}`}
       />
     </Parallax>
 
     {/* group 4 */}
     <Parallax speed={-5}>
       <div
-        className={`purple-3d purple-floater floater-10 ${HomeStyle.floaterSix}`}
+        className={`purple-3d purple-floater floater-10 ${HeroStyle.floaterSix}`}
       />
     </Parallax>
   </div>

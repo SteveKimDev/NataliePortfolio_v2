@@ -5,6 +5,7 @@ import HeroSection from '../components/home-page/01-hero-section/01-hero-section
 import StorySection from '../components/home-page/02-story-section/01-story-section';
 import WorkSection from '../components/home-page/03-work-section/01-work-section';
 import ExperienceSection from '../components/home-page/04-experience-section/01-exp-section';
+import ContactSection from '../components/home-page/05-contact-section/01-contact-section';
 
 const HomePage = () => (
   <div>
@@ -14,6 +15,7 @@ const HomePage = () => (
       <StorySection />
       <WorkSection />
       <ExperienceSection />
+      <ContactSection />
     </Layout>
   </div>
 );

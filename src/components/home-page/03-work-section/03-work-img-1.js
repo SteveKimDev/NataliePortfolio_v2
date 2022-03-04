@@ -2,7 +2,7 @@ import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import * as HomeStyle from '../home.module.css';
+import * as WorkStyle from './work.module.css';
 
 const WorkImg1 = () => {
   const data = useStaticQuery(graphql`
@@ -16,7 +16,7 @@ const WorkImg1 = () => {
   `);
   return (
     <GatsbyImage
-      className={HomeStyle.workImg1}
+      className={WorkStyle.workImg1}
       alt='work img'
       image={data.file.childImageSharp.gatsbyImageData}
     />

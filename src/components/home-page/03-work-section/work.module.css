@@ -1,0 +1,260 @@
+/* Work Section */
+.work-section {
+  position: relative !important;
+  padding-bottom: 100px;
+  background: rgb(212, 239, 254);
+  background: linear-gradient(
+    0deg,
+    rgba(212, 239, 254, 1) 12%,
+    rgba(212, 239, 254, 0.4962359943977591) 25%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+
+.work-description {
+  width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.work-row {
+  margin-top: 50px;
+}
+
+.work-tab {
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.work-img-1 {
+  width: 130px;
+  display: block;
+  margin: auto;
+}
+
+.work-img-2,
+.work-img-3,
+.work-img-4 {
+  width: 166px;
+  height: 123px;
+  display: block;
+  margin: auto;
+}
+
+.work-link {
+  display: block;
+  margin: 30px auto 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 150px;
+}
+
+.floater-seven {
+  position: absolute !important;
+  bottom: 450px;
+  left: -5%;
+}
+
+.floater-eight {
+  position: absolute !important;
+  bottom: 425px;
+  left: 5%;
+}
+
+.floater-nine {
+  position: absolute !important;
+  bottom: 300px;
+  right: -5%;
+}
+
+.floater-ten {
+  position: absolute !important;
+  bottom: 250px;
+  right: -10%;
+}
+
+.floater-eleven {
+  position: absolute !important;
+  bottom: 150px;
+  right: -7%;
+}
+
+.floater-twelve {
+  position: absolute !important;
+  bottom: -50px;
+  left: -10%;
+}
+
+.floater-thirteen {
+  position: absolute !important;
+  bottom: 0;
+  left: -5%;
+}
+
+@media (min-width: 1920px) {
+  .work-section {
+    padding-left: 230px;
+    padding-right: 230px;
+  }
+}
+
+@media (min-width: 1680px) and (max-width: 1919px) {
+  .work-section {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1679px) {
+  .work-section {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .floater-seven {
+    left: 0;
+  }
+  .floater-eight {
+    left: 10%;
+  }
+  .floater-nine {
+    right: 5%;
+  }
+  .floater-ten {
+    right: 0;
+  }
+  .floater-eleven {
+    right: 2%;
+  }
+  .floater-twelve {
+    left: -3%;
+  }
+  .floater-thirteen {
+    left: 0;
+  }
+}
+
+/* iPad Pro 12 Landscape View */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) {
+  .floater-seven {
+    left: 0;
+  }
+  .floater-eight {
+    left: 10%;
+  }
+  .floater-nine {
+    right: 3%;
+  }
+  .floater-ten {
+    right: -2%;
+  }
+  .floater-eleven {
+    right: 0;
+  }
+  .floater-twelve {
+    left: -5%;
+  }
+  .floater-thirteen {
+    left: -1%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .work-description {
+    width: 100%;
+  }
+  .work-tab {
+    width: 200px;
+  }
+  .floater-seven {
+    bottom: 475px;
+    left: 10%;
+  }
+  .floater-eight {
+    bottom: 450px;
+    left: 18%;
+  }
+  .floater-nine {
+    bottom: 500px;
+    right: 20%;
+  }
+  .floater-ten {
+    bottom: 475px;
+    right: 5%;
+  }
+  .floater-eleven {
+    bottom: 450px;
+    right: 15%;
+  }
+  .floater-twelve {
+    bottom: -80px;
+    left: 3%;
+  }
+  .floater-thirteen {
+    bottom: -60px;
+    left: 7%;
+  }
+}
+
+@media (max-width: 991px) {
+  .work-row div:nth-child(3),
+  .work-row div:nth-child(4) {
+    margin-top: 50px;
+  }
+  .work-tab {
+    width: 220px;
+  }
+  .floater-seven {
+    bottom: 800px;
+  }
+  .floater-eight {
+    bottom: 770px;
+  }
+  .floater-nine {
+    bottom: 850px;
+  }
+  .floater-ten {
+    bottom: 775px;
+  }
+  .floater-eleven {
+    bottom: 750px;
+  }
+}
+
+@media (max-width: 575px) {
+  .work-row div:nth-child(2) {
+    margin-top: 50px;
+  }
+  .floater-seven {
+    bottom: 1550px;
+  }
+  .floater-eight {
+    bottom: 1500px;
+  }
+  .floater-nine {
+    bottom: 1230px;
+    right: 15%;
+  }
+  .floater-ten {
+    bottom: 1200px;
+    right: 5%;
+  }
+  .floater-eleven {
+    bottom: 1150px;
+    right: 9%;
+  }
+  .floater-twelve {
+    bottom: -70px;
+    left: 9%;
+  }
+
+  .floater-thirteen {
+    bottom: -50px;
+    left: 30%;
+  }
+}

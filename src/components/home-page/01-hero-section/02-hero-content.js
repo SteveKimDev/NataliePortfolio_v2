@@ -1,16 +1,16 @@
 import * as React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-import * as HomeStyle from '../home.module.css';
+import * as HeroStyle from './hero.module.css';
 
 const HersoContent = () => (
-  <div className={`${HomeStyle.heroCol1Div}`}>
+  <div className={`${HeroStyle.heroCol1Div}`}>
     <AnimationOnScroll
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'
     >
-      <h1 className={HomeStyle.heroTitle}>Hi, I'm Natalie</h1>
-      <p className={HomeStyle.heroSubtitle}>
+      <h1 className={HeroStyle.heroTitle}>Hi, I'm Natalie</h1>
+      <p className={HeroStyle.heroSubtitle}>
         I ARCHITECT MODERN DIGITAL EXPERIENCE SYSTEMS
       </p>
       <p>
@@ -22,7 +22,7 @@ const HersoContent = () => (
         digital experiences for growing companies. I’d love to see what I can
         help you with!
       </p>
-      <a className={`purple-btn float-shadow ${HomeStyle.heroBtn}`} href='/'>
+      <a className={`purple-btn float-shadow ${HeroStyle.heroBtn}`} href='/'>
         Let's Chat
       </a>
     </AnimationOnScroll>

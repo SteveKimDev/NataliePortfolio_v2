@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-import * as HomeStyle from '../home.module.css';
+import * as StoryStyle from './story.module.css';
 
 const StoryContent = () => (
   <div>
@@ -9,7 +9,7 @@ const StoryContent = () => (
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'
     >
-      <p className={`text-align-center ${HomeStyle.subtitle}`}>
+      <p className={`text-align-center ${StoryStyle.subtitle}`}>
         Attitude Is The Difference Between An Ordeal And An Adventure
       </p>
       <h2 className={`section-title text-align-center mb-2rem`}>True Story</h2>

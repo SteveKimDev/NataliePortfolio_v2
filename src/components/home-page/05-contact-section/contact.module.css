@@ -1,0 +1,18 @@
+.contact-section {
+  padding-bottom: 50px;
+}
+
+.float-box {
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.contact-img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.contact-description {
+  color: #222222;
+}
