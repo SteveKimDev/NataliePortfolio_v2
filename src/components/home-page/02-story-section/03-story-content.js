@@ -8,6 +8,7 @@ const StoryContent = () => (
     <AnimationOnScroll
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'
+      offset={100}
     >
       <p className={`text-align-center ${StoryStyle.subtitle}`}>
         Attitude Is The Difference Between An Ordeal And An Adventure
@@ -18,6 +19,7 @@ const StoryContent = () => (
     <AnimationOnScroll
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'
+      offset={100}
     >
       <p>
         I specialize in leading multimillion-dollar enterprise digital

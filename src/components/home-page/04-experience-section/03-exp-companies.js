@@ -10,25 +10,53 @@ import ExpImg5 from './08-exp-img-5';
 // import * as ExpStyle from './experience.module.css';
 
 const ExperienceCompanies = () => (
-  <AnimationOnScroll animateIn='animate__fadeIn' animateOut='animate__fadeOut'>
-    <Row>
-      <Col>
+  <Row>
+    <Col>
+      <AnimationOnScroll
+        animateIn='animate__fadeIn'
+        animateOut='animate__fadeOut'
+        offset={100}
+      >
         <ExpImg1 />
-      </Col>
-      <Col>
+      </AnimationOnScroll>
+    </Col>
+    <Col>
+      <AnimationOnScroll
+        animateIn='animate__fadeIn'
+        animateOut='animate__fadeOut'
+        offset={100}
+      >
         <ExpImg2 />
-      </Col>
-      <Col>
+      </AnimationOnScroll>
+    </Col>
+    <Col>
+      <AnimationOnScroll
+        animateIn='animate__fadeIn'
+        animateOut='animate__fadeOut'
+        offset={100}
+      >
         <ExpImg3 />
-      </Col>
-      <Col>
+      </AnimationOnScroll>
+    </Col>
+    <Col>
+      <AnimationOnScroll
+        animateIn='animate__fadeIn'
+        animateOut='animate__fadeOut'
+        offset={100}
+      >
         <ExpImg4 />
-      </Col>
-      <Col>
+      </AnimationOnScroll>
+    </Col>
+    <Col>
+      <AnimationOnScroll
+        animateIn='animate__fadeIn'
+        animateOut='animate__fadeOut'
+        offset={100}
+      >
         <ExpImg5 />
-      </Col>
-    </Row>
-  </AnimationOnScroll>
+      </AnimationOnScroll>
+    </Col>
+  </Row>
 );
 
 export default ExperienceCompanies;

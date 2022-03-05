@@ -1,18 +1,121 @@
-.contact-section {
-  padding-bottom: 50px;
-}
-
 .float-box {
   padding: 50px;
   border-radius: 20px;
 }
 
+.contact-col1 {
+  position: relative !important;
+}
+
 .contact-img {
-  width: 60%;
+  width: 350px;
   display: block;
   margin: auto;
 }
 
+.floater-one {
+  position: absolute !important;
+  bottom: 150px;
+  left: 10%;
+}
+
+.floater-two {
+  position: absolute !important;
+  bottom: 190px;
+  left: 25%;
+}
+
+.floater-three {
+  position: absolute !important;
+  bottom: 50px;
+  right: 35%;
+}
+
+.floater-four {
+  position: absolute !important;
+  bottom: -50px;
+  left: 15%;
+}
+
 .contact-description {
   color: #222222;
+}
+
+@media (min-width: 1920px) {
+  .float-box {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .float-box {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-img {
+    margin-bottom: 50px;
+    margin-right: 50px;
+  }
+  .floater-one {
+    bottom: 230px;
+    left: 20%;
+  }
+  .floater-two {
+    bottom: 270px;
+    left: 32%;
+  }
+  .floater-three {
+    bottom: 130px;
+    right: 28%;
+  }
+  .floater-four {
+    bottom: 40px;
+    left: 20%;
+  }
+  .contact-title,
+  .contact-description {
+    text-align: center;
+  }
+  .contact-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* iPad Pro 11 Portrait View */
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (min-device-height: 1194px) and (max-device-height: 1194px) and (min-width: 834px) and (max-width: 834px) and (orientation: portrait) {
+  .contact-img {
+    margin-right: 100px;
+  }
+  .floater-three {
+    right: 32%;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-img {
+    margin-right: auto;
+    width: 250px;
+  }
+  .floater-one {
+    bottom: 200px;
+    left: 0;
+  }
+  .floater-two {
+    bottom: 240px;
+    left: 25%;
+  }
+  .floater-three {
+    bottom: 110px;
+    right: 32%;
+  }
+  .floater-four {
+    bottom: 60px;
+    left: 0;
+  }
 }

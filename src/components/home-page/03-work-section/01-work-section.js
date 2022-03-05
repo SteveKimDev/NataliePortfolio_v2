@@ -17,13 +17,15 @@ const WorkSection = () => (
     <Parallax speed={5}>
       <WorkContent />
     </Parallax>
-    <AnimationOnScroll
-      animateIn='animate__fadeIn'
-      animateOut='animate__fadeOut'
-    >
-      <Row className={WorkStyle.workRow}>
-        {/* tab 1 */}
-        <Col lg={3} sm={6}>
+
+    <Row className={WorkStyle.workRow}>
+      {/* tab 1 */}
+      <Col lg={3} sm={6}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
           <div className={`float-shadow white-btn ${WorkStyle.workTab}`}>
             <WorkImg1 />
             <Link
@@ -33,10 +35,16 @@ const WorkSection = () => (
               Agile Coaching
             </Link>
           </div>
-        </Col>
+        </AnimationOnScroll>
+      </Col>
 
-        {/* tab 2 */}
-        <Col lg={3} sm={6}>
+      {/* tab 2 */}
+      <Col lg={3} sm={6}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
           <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg2 />
             <Link
@@ -46,10 +54,16 @@ const WorkSection = () => (
               Product Management
             </Link>
           </div>
-        </Col>
+        </AnimationOnScroll>
+      </Col>
 
-        {/* tab 3 */}
-        <Col lg={3} sm={6}>
+      {/* tab 3 */}
+      <Col lg={3} sm={6}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
           <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg3 />
             <Link
@@ -59,10 +73,16 @@ const WorkSection = () => (
               First String Web Project
             </Link>
           </div>
-        </Col>
+        </AnimationOnScroll>
+      </Col>
 
-        {/* tab 4 */}
-        <Col lg={3} sm={6}>
+      {/* tab 4 */}
+      <Col lg={3} sm={6}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
           <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg4 />
             <Link
@@ -72,9 +92,9 @@ const WorkSection = () => (
               Las Uvas Web Project
             </Link>
           </div>
-        </Col>
-      </Row>
-    </AnimationOnScroll>
+        </AnimationOnScroll>
+      </Col>
+    </Row>
     <FloaterDivs />
   </div>
 );

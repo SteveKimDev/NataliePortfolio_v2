@@ -8,6 +8,7 @@ const ExperienceContent = () => (
     <AnimationOnScroll
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'
+      offset={100}
     >
       <h3 className={`section-title text-align-center mb-2rem`}>Experience</h3>
       <p className={`text-align-center ${ExpStyle.expDescription}`}>

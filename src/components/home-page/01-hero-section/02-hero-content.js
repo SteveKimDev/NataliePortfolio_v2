@@ -8,6 +8,7 @@ const HersoContent = () => (
     <AnimationOnScroll
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'
+      offset={100}
     >
       <h1 className={HeroStyle.heroTitle}>Hi, I'm Natalie</h1>
       <p className={HeroStyle.heroSubtitle}>

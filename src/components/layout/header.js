@@ -44,7 +44,7 @@ const Header = () => (
       </a>
     </div>
     <div className={`ms-auto hidden`}>
-      <div to='/' className={`float-shadow header-div`}>
+      <div className={`float-shadow header-div`}>
         <div className={`social-icon-div`}>
           <a
             className={`social-icon-link`}

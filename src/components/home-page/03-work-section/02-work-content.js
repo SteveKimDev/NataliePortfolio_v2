@@ -8,6 +8,7 @@ const WorkContent = () => (
     <AnimationOnScroll
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'
+      offset={100}
     >
       <h3 className={`section-title text-align-center mb-2rem`}>Work</h3>
       <p className={`text-align-center ${WorkStyle.workDescription}`}>
