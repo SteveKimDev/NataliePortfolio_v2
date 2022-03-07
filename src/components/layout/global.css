@@ -428,6 +428,16 @@ a:hover {
   margin-right: 30px;
 }
 
+.footer-col1 .logo-div .logo-img {
+  width: 50px;
+  margin: 0;
+  position: absolute !important;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .footer-name {
   padding-top: 25px;
   font-weight: 500;
@@ -480,6 +490,7 @@ a:hover {
     margin: auto;
   }
   .footer-name {
+    font-size: 1.25rem;
     text-align: center;
     padding-top: 30px;
   }
