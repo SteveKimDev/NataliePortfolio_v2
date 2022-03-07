@@ -28,7 +28,7 @@ function OffCanvasMenu({ name, ...props }) {
             <div className={`content-align-center`}>
               <Link
                 to='/'
-                className={`float-shadow header-link`}
+                className={`float-shadow offcanvas-link`}
                 onClick={handleClose}
               >
                 Home
@@ -37,7 +37,7 @@ function OffCanvasMenu({ name, ...props }) {
             <div className={`content-align-center`}>
               <Link
                 to='/#story'
-                className={`float-shadow header-link`}
+                className={`float-shadow offcanvas-link`}
                 onClick={handleClose}
               >
                 True Story
@@ -45,8 +45,8 @@ function OffCanvasMenu({ name, ...props }) {
             </div>
             <div className={`content-align-center`}>
               <Link
-                to='/'
-                className={`float-shadow header-link`}
+                to='/#work'
+                className={`float-shadow offcanvas-link`}
                 onClick={handleClose}
               >
                 Work
@@ -54,28 +54,28 @@ function OffCanvasMenu({ name, ...props }) {
             </div>
             <div className={`content-align-center`}>
               <Link
-                to='/'
-                className={`float-shadow header-link`}
+                to='/#experience'
+                className={`float-shadow offcanvas-link`}
                 onClick={handleClose}
               >
                 Experience
               </Link>
             </div>
             <div className={`content-align-center`}>
-              <Link
-                to='/'
-                className={`float-shadow header-link`}
+              <a
+                href='mailto:natalie.cervantes@gmail.com'
+                className={`float-shadow offcanvas-link`}
                 onClick={handleClose}
               >
                 Contact
-              </Link>
+              </a>
             </div>
             <div className={`content-align-center`}>
-              <div to='/' className={`float-shadow header-div`}>
+              <div className={`float-shadow offcanvas-div`}>
                 <div className={`social-icon-div`}>
                   <a
                     className={`social-icon-link`}
-                    href='/'
+                    href='https://www.linkedin.com/in/nataliecervantes/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -83,7 +83,7 @@ function OffCanvasMenu({ name, ...props }) {
                   </a>
                   <a
                     className={`social-icon-link`}
-                    href='/'
+                    href='https://twitter.com/softwarenomad'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -92,7 +92,7 @@ function OffCanvasMenu({ name, ...props }) {
                   </a>
                   <a
                     className={`social-icon-link`}
-                    href='/'
+                    href='https://github.com/Natalie624'
                     target='_blank'
                     rel='noreferrer'
                   >

@@ -48,7 +48,7 @@ const Header = () => (
         <div className={`social-icon-div`}>
           <a
             className={`social-icon-link`}
-            href='/'
+            href='https://www.linkedin.com/in/nataliecervantes/'
             target='_blank'
             rel='noreferrer'
           >
@@ -56,7 +56,7 @@ const Header = () => (
           </a>
           <a
             className={`social-icon-link`}
-            href='/'
+            href='https://twitter.com/softwarenomad'
             target='_blank'
             rel='noreferrer'
           >
@@ -65,7 +65,7 @@ const Header = () => (
           </a>
           <a
             className={`social-icon-link`}
-            href='/'
+            href='https://github.com/Natalie624'
             target='_blank'
             rel='noreferrer'
           >

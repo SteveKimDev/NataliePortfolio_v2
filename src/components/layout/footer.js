@@ -15,7 +15,7 @@ const Footer = () => (
       </div>
       <div className='footer-name'>Natalie Cervantes</div>
     </Col>
-    <Col lg={6} className='footer-col3'>
+    <Col lg={6} className='footer-col2'>
       <Row className='footer-page-links-row'>
         <Col className='footer-page-link-col'>
           <div className='footer-page-link'>
@@ -44,12 +44,12 @@ const Footer = () => (
         </Col>
       </Row>
     </Col>
-    <Col lg={2} className='footer-col4'>
+    <Col lg={2} className='footer-col3'>
       <div className={`footer-icon-div`}>
         <div className={`social-icon-div`}>
           <a
             className={`social-icon-link`}
-            href='/'
+            href='https://www.linkedin.com/in/nataliecervantes/'
             target='_blank'
             rel='noreferrer'
           >
@@ -57,7 +57,7 @@ const Footer = () => (
           </a>
           <a
             className={`social-icon-link`}
-            href='/'
+            href='https://twitter.com/softwarenomad'
             target='_blank'
             rel='noreferrer'
           >
@@ -66,7 +66,7 @@ const Footer = () => (
           </a>
           <a
             className={`social-icon-link`}
-            href='/'
+            href='https://github.com/Natalie624'
             target='_blank'
             rel='noreferrer'
           >

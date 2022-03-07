@@ -8,24 +8,24 @@ const FloaterDivs = () => (
     {/* group 1 */}
     <Parallax speed={-3}>
       <div
-        className={`purple-3d purple-floater floater-30 ${ContactStyle.floaterOne}`}
+        className={`purple-3d purple-floater1 floater-30 ${ContactStyle.floaterOne}`}
       />
       <div
-        className={`purple-3d purple-floater floater-15 ${ContactStyle.floaterTwo}`}
+        className={`purple-3d purple-floater0 floater-15 ${ContactStyle.floaterTwo}`}
       />
     </Parallax>
 
     {/* group 2 */}
     <Parallax speed={-2}>
       <div
-        className={`purple-3d purple-floater floater-15 ${ContactStyle.floaterThree}`}
+        className={`purple-3d purple-floater1 floater-15 ${ContactStyle.floaterThree}`}
       />
     </Parallax>
 
     {/* group 3 */}
     <Parallax speed={-4}>
       <div
-        className={`purple-3d purple-floater floater-10 ${ContactStyle.floaterFour}`}
+        className={`purple-3d purple-floater05 floater-10 ${ContactStyle.floaterFour}`}
       />
     </Parallax>
   </div>
