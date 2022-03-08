@@ -3,10 +3,8 @@ import { Parallax } from 'react-scroll-parallax';
 import ExperienceContent from './02-exp-content';
 import ExperienceCompanies from './03-exp-companies';
 
-import * as ExpStyle from './experience.module.css';
-
 const ExperienceSection = () => (
-  <div className={`section ${ExpStyle.expSection}`} id='experience'>
+  <div className={`section`} id='experience'>
     <Parallax speed={5}>
       <ExperienceContent />
     </Parallax>

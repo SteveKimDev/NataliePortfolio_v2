@@ -29,7 +29,7 @@ const WorkSection = () => (
           <div className={`float-shadow white-btn ${WorkStyle.workTab}`}>
             <WorkImg1 />
             <Link
-              to='/'
+              to='/agile-coaching'
               className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               Agile Coaching
@@ -48,7 +48,7 @@ const WorkSection = () => (
           <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg2 />
             <Link
-              to='/'
+              to='/product-management'
               className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               Product Management
@@ -67,7 +67,7 @@ const WorkSection = () => (
           <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg3 />
             <Link
-              to='/'
+              to='/first-string'
               className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               First String Web Project
@@ -86,7 +86,7 @@ const WorkSection = () => (
           <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg4 />
             <Link
-              to='/'
+              to='/las-uvas'
               className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               Las Uvas Web Project

@@ -1,0 +1,265 @@
+.tools-section {
+  background: rgb(212, 239, 254);
+  background: linear-gradient(
+    0deg,
+    rgba(212, 239, 254, 1) 12%,
+    rgba(212, 239, 254, 0.4962359943977591) 25%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.tab {
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 20px;
+  border-radius: 20px;
+  width: 46.9%;
+}
+
+.tab-last {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.tab-col1,
+.tab-col2,
+.tab-col-last {
+  position: relative !important;
+  height: 320px;
+}
+
+.agile-coaching-img1 {
+  width: 85%;
+  left: 1vw;
+}
+
+.agile-coaching-img2,
+.agile-coaching-img3,
+.agile-coaching-img4,
+.agile-coaching-img5 {
+  width: 80%;
+  left: 1vw;
+}
+
+.agile-coaching-img3,
+.agile-coaching-img5 {
+  width: 65%;
+  left: 2vw;
+}
+
+.tab-description {
+  color: #222222;
+}
+
+@media (min-width: 1920px) {
+  .tab {
+    width: 48.1%;
+  }
+  .tab-last {
+    width: 30%;
+  }
+  .tab-col1,
+  .tab-col2,
+  .tab-col-last {
+    height: 230px;
+  }
+  .agile-coaching-img1 {
+    width: 65%;
+    left: 3vw;
+  }
+
+  .agile-coaching-img2,
+  .agile-coaching-img3,
+  .agile-coaching-img4,
+  .agile-coaching-img5 {
+    width: 60%;
+    left: 3vw;
+  }
+
+  .agile-coaching-img3,
+  .agile-coaching-img5 {
+    width: 45%;
+    left: 4vw;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .tab {
+    width: 47.5%;
+  }
+  .tab-last {
+    width: 40%;
+  }
+  .tab-col1,
+  .tab-col2,
+  .tab-col-last {
+    height: 275px;
+  }
+  .agile-coaching-img1 {
+    width: 75%;
+    left: 2vw;
+  }
+
+  .agile-coaching-img2,
+  .agile-coaching-img3,
+  .agile-coaching-img4,
+  .agile-coaching-img5 {
+    width: 70%;
+    left: 2vw;
+  }
+
+  .agile-coaching-img3,
+  .agile-coaching-img5 {
+    width: 55%;
+    left: 3vw;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1365px) {
+  .tab {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .tab-col1,
+  .tab-col2 {
+    height: 180px;
+  }
+  .tab-col1 {
+    width: 20%;
+  }
+  .tab-col2 {
+    width: 80%;
+  }
+  .tab-col-last {
+    height: 100%;
+  }
+  .agile-coaching-img1 {
+    width: 75%;
+    left: 1vw;
+  }
+  .agile-coaching-img2,
+  .agile-coaching-img3,
+  .agile-coaching-img4,
+  .agile-coaching-img5 {
+    width: 70%;
+    left: 1vw;
+  }
+  .agile-coaching-img3,
+  .agile-coaching-img5 {
+    width: 55%;
+    left: 2vw;
+  }
+  .tab-col-last .tab-description {
+    position: relative !important;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    top: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .tab {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .tab-col1,
+  .tab-col2 {
+    height: 180px;
+  }
+  .tab-col-last {
+    height: 100%;
+  }
+  .agile-coaching-img1 {
+    width: 60%;
+    left: 4vw;
+  }
+  .agile-coaching-img2,
+  .agile-coaching-img3,
+  .agile-coaching-img4,
+  .agile-coaching-img5 {
+    width: 55%;
+    left: 4vw;
+  }
+  .agile-coaching-img3,
+  .agile-coaching-img5 {
+    width: 40%;
+    left: 6vw;
+  }
+  .tab-col-last .tab-description {
+    position: relative !important;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    top: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .agile-coaching-img1 {
+    width: 80%;
+    left: 1vw;
+  }
+  .agile-coaching-img2,
+  .agile-coaching-img3,
+  .agile-coaching-img4,
+  .agile-coaching-img5 {
+    width: 75%;
+    left: 1vw;
+  }
+  .agile-coaching-img3,
+  .agile-coaching-img5 {
+    width: 60%;
+    left: 2.5vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .tab-col1,
+  .tab-col2 {
+    height: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  .tab {
+    padding: 30px 20px;
+  }
+  .tab-col1,
+  .tab-col2 {
+    height: 100%;
+  }
+  .agile-coaching-img1,
+  .agile-coaching-img2,
+  .agile-coaching-img3,
+  .agile-coaching-img4,
+  .agile-coaching-img5,
+  .tab-description {
+    position: relative !important;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .agile-coaching-img1 {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+  .agile-coaching-img2,
+  .agile-coaching-img3,
+  .agile-coaching-img4,
+  .agile-coaching-img5 {
+    width: 55%;
+    margin-bottom: 30px;
+  }
+  .agile-coaching-img3,
+  .agile-coaching-img5 {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+}

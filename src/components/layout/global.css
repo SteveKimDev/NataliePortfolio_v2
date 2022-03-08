@@ -36,7 +36,7 @@ a:hover {
 }
 
 .section {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 150px;
   padding-right: 150px;
 }
@@ -51,7 +51,6 @@ a:hover {
 
 @media (max-width: 1199px) {
   .section {
-    padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -62,6 +61,16 @@ a:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+.section-title {
+  color: #6ccaff;
+  font-size: 4rem;
+}
+
+.section-subtitle {
+  color: #6ccaff;
+  font-size: 1.5rem;
 }
 
 .text-align-center {
@@ -75,7 +84,6 @@ a:hover {
 }
 
 .vert-center {
-  margin: 0;
   position: absolute !important;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -136,6 +144,7 @@ a:hover {
   box-shadow: -4px -4px 6px 0px #f4f4f4, 4px 4px 6px 0px #cbcbcb,
     inset -5px -5px 5px 0px #b42bf9, inset 5px 5px 5px 0px #e0a1ff;
 }
+
 .purple-floater0 {
   border-radius: 50%;
   transform: translatey(0px);
@@ -234,11 +243,6 @@ a:hover {
 .floater-30 {
   width: 30px;
   height: 30px;
-}
-
-.section-title {
-  color: #6ccaff;
-  font-size: 4rem;
 }
 
 /* Header Section */
