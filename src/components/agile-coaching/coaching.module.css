@@ -14,16 +14,19 @@
   margin-top: 30px;
   margin-left: 15px;
   margin-right: 15px;
+  width: 46.9%;
+}
+
+.tab-div {
   padding: 20px;
   border-radius: 20px;
-  width: 46.9%;
 }
 
 .tab-last {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 80%;
 }
 
 .tab-col1,
@@ -56,12 +59,100 @@
   color: #222222;
 }
 
+.floater-one {
+  position: absolute !important;
+  top: 50px;
+  left: 30px;
+}
+
+.floater-two {
+  position: absolute !important;
+  top: 80px;
+  right: 30px;
+}
+
+.floater-three {
+  position: absolute !important;
+  top: 230px;
+  left: 20px;
+}
+.floater-four {
+  position: absolute !important;
+  top: 50px;
+  right: 50px;
+}
+
+.floater-five {
+  position: absolute !important;
+  top: 80px;
+  right: 30px;
+}
+
+.floater-six {
+  position: absolute !important;
+  top: 230px;
+  left: 20px;
+}
+
+.floater-seven {
+  position: absolute !important;
+  top: 50px;
+  left: 10px;
+}
+
+.floater-eight {
+  position: absolute !important;
+  top: 190px;
+  right: 30px;
+}
+
+.floater-nine {
+  position: absolute !important;
+  top: 270px;
+  left: 70px;
+}
+.floater-ten {
+  position: absolute !important;
+  top: 50px;
+  left: 30px;
+}
+
+.floater-eleven {
+  position: absolute !important;
+  top: 70px;
+  right: 30px;
+}
+
+.floater-twelve {
+  position: absolute !important;
+  top: 250px;
+  left: 40px;
+}
+
+.floater-thirteen {
+  position: absolute !important;
+  top: 50px;
+  left: 30px;
+}
+
+.floater-fourteen {
+  position: absolute !important;
+  top: 90px;
+  left: 70px;
+}
+
+.floater-fifteen {
+  position: absolute !important;
+  top: 250px;
+  right: 80px;
+}
+
 @media (min-width: 1920px) {
   .tab {
     width: 48.1%;
   }
   .tab-last {
-    width: 30%;
+    width: 60%;
   }
   .tab-col1,
   .tab-col2,
@@ -72,7 +163,6 @@
     width: 65%;
     left: 3vw;
   }
-
   .agile-coaching-img2,
   .agile-coaching-img3,
   .agile-coaching-img4,
@@ -80,11 +170,70 @@
     width: 60%;
     left: 3vw;
   }
-
   .agile-coaching-img3,
   .agile-coaching-img5 {
     width: 45%;
     left: 4vw;
+  }
+  .floater-one {
+    top: 0;
+    left: 80px;
+  }
+  .floater-two {
+    top: 30px;
+    right: 70px;
+  }
+  .floater-three {
+    top: 180px;
+    left: 65px;
+  }
+  .floater-four {
+    top: 0;
+    right: 90px;
+  }
+  .floater-five {
+    top: 30px;
+    right: 70px;
+  }
+  .floater-six {
+    top: 190px;
+    left: 65px;
+  }
+  .floater-seven {
+    top: 10px;
+    left: 50px;
+  }
+  .floater-eight {
+    top: 150px;
+    right: 70px;
+  }
+  .floater-nine {
+    top: 220px;
+    left: 105px;
+  }
+  .floater-ten {
+    top: 10px;
+    left: 70px;
+  }
+  .floater-eleven {
+    top: 15px;
+    right: 70px;
+  }
+  .floater-twelve {
+    top: 200px;
+    left: 60px;
+  }
+  .floater-thirteen {
+    top: 30px;
+    left: 70px;
+  }
+  .floater-fourteen {
+    top: 70px;
+    left: 120px;
+  }
+  .floater-fifteen {
+    top: 200px;
+    right: 130px;
   }
 }
 
@@ -93,7 +242,7 @@
     width: 47.5%;
   }
   .tab-last {
-    width: 40%;
+    width: 70%;
   }
   .tab-col1,
   .tab-col2,
@@ -117,6 +266,66 @@
   .agile-coaching-img5 {
     width: 55%;
     left: 3vw;
+  }
+  .floater-one {
+    top: 30px;
+    left: 50px;
+  }
+  .floater-two {
+    top: 60px;
+    right: 40px;
+  }
+  .floater-three {
+    top: 210px;
+    left: 40px;
+  }
+  .floater-four {
+    top: 20px;
+    right: 70px;
+  }
+  .floater-five {
+    top: 60px;
+    right: 35px;
+  }
+  .floater-six {
+    top: 210px;
+    left: 35px;
+  }
+  .floater-seven {
+    top: 30px;
+    left: 30px;
+  }
+  .floater-eight {
+    top: 150px;
+    right: 40px;
+  }
+  .floater-nine {
+    top: 245px;
+    left: 75px;
+  }
+  .floater-ten {
+    top: 40px;
+    left: 40px;
+  }
+  .floater-eleven {
+    top: 55px;
+    right: 40px;
+  }
+  .floater-twelve {
+    top: 220px;
+    left: 50px;
+  }
+  .floater-thirteen {
+    top: 30px;
+    left: 40px;
+  }
+  .floater-fourteen {
+    top: 70px;
+    left: 80px;
+  }
+  .floater-fifteen {
+    top: 220px;
+    right: 100px;
   }
 }
 
@@ -161,6 +370,72 @@
     transform: translateY(0);
     top: 0;
   }
+  .floater-one {
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: 25px;
+  }
+  .floater-two {
+    top: 20px;
+    right: 50px;
+  }
+  .floater-three {
+    width: 10px;
+    height: 10px;
+    top: 140px;
+    left: 20px;
+  }
+  .floater-four {
+    top: 0px;
+    right: 70px;
+  }
+  .floater-five {
+    top: 30px;
+    right: 35px;
+  }
+  .floater-six {
+    top: 150px;
+    left: 15px;
+  }
+  .floater-seven {
+    top: 10px;
+    left: 5px;
+  }
+
+  .floater-eight {
+    top: 100px;
+    right: 40px;
+  }
+
+  .floater-nine {
+    top: 180px;
+    left: 45px;
+  }
+  .floater-ten {
+    top: 10px;
+    left: 20px;
+  }
+  .floater-eleven {
+    top: 15px;
+    right: 40px;
+  }
+  .floater-twelve {
+    top: 170px;
+    left: 30px;
+  }
+  .floater-thirteen {
+    top: 20px;
+    left: 10px;
+  }
+  .floater-fourteen {
+    top: 40px;
+    left: 60px;
+  }
+  .floater-fifteen {
+    top: 160px;
+    right: 85px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -198,6 +473,72 @@
     transform: translateY(0);
     top: 0;
   }
+  .floater-one {
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 60px;
+  }
+  .floater-two {
+    top: 15px;
+    right: 70px;
+  }
+  .floater-three {
+    width: 10px;
+    height: 10px;
+    top: 145px;
+    left: 50px;
+  }
+  .floater-four {
+    top: 0px;
+    right: 90px;
+  }
+  .floater-five {
+    top: 30px;
+    right: 65px;
+  }
+  .floater-six {
+    top: 150px;
+    left: 45px;
+  }
+  .floater-seven {
+    top: 10px;
+    left: 50px;
+  }
+
+  .floater-eight {
+    top: 100px;
+    right: 50px;
+  }
+
+  .floater-nine {
+    top: 175px;
+    left: 95px;
+  }
+  .floater-ten {
+    top: 10px;
+    left: 50px;
+  }
+  .floater-eleven {
+    top: 20px;
+    right: 60px;
+  }
+  .floater-twelve {
+    top: 160px;
+    left: 60px;
+  }
+  .floater-thirteen {
+    top: 20px;
+    left: 50px;
+  }
+  .floater-fourteen {
+    top: 40px;
+    left: 100px;
+  }
+  .floater-fifteen {
+    top: 160px;
+    right: 115px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -217,12 +558,124 @@
     width: 60%;
     left: 2.5vw;
   }
+  .floater-one {
+    top: 10px;
+    left: 10px;
+  }
+  .floater-two {
+    top: 30px;
+    right: 30px;
+  }
+  .floater-three {
+    top: 140px;
+    left: 5px;
+  }
+  .floater-four {
+    top: 0px;
+    right: 50px;
+  }
+  .floater-five {
+    top: 30px;
+    right: 35px;
+  }
+  .floater-six {
+    top: 160px;
+    left: 15px;
+  }
+  .floater-seven {
+    top: 10px;
+    left: 0;
+  }
+
+  .floater-eight {
+    top: 100px;
+    right: 20px;
+  }
+
+  .floater-nine {
+    top: 170px;
+    left: 35px;
+  }
+  .floater-ten {
+    top: 10px;
+    left: 10px;
+  }
+  .floater-eleven {
+    top: 20px;
+    right: 30px;
+  }
+  .floater-twelve {
+    top: 160px;
+    left: 30px;
+  }
+  .floater-thirteen {
+    top: 20px;
+    left: 10px;
+  }
+  .floater-fourteen {
+    top: 40px;
+    left: 50px;
+  }
+  .floater-fifteen {
+    top: 160px;
+    right: 70px;
+  }
 }
 
 @media (max-width: 767px) {
   .tab-col1,
   .tab-col2 {
     height: 200px;
+  }
+  .floater-one {
+    top: 20px;
+    left: 10px;
+  }
+  .floater-two {
+    top: 40px;
+    right: 30px;
+  }
+  .floater-three {
+    top: 150px;
+    left: 5px;
+  }
+  .floater-four {
+    top: 20px;
+    right: 50px;
+  }
+  .floater-five {
+    top: 40px;
+    right: 25px;
+  }
+  .floater-six {
+    top: 160px;
+    left: 15px;
+  }
+  .floater-seven {
+    top: 30px;
+    left: -5px;
+  }
+
+  .floater-eight {
+    top: 110px;
+    right: 20px;
+  }
+
+  .floater-nine {
+    top: 180px;
+    left: 35px;
+  }
+  .floater-ten {
+    top: 30px;
+    left: 10px;
+  }
+  .floater-eleven {
+    top: 20px;
+    right: 30px;
+  }
+  .floater-twelve {
+    top: 170px;
+    left: 30px;
   }
 }
 
@@ -261,5 +714,69 @@
   .agile-coaching-img5 {
     width: 40%;
     margin-bottom: 30px;
+  }
+  .floater-one {
+    top: -190px;
+    left: 60px;
+  }
+  .floater-two {
+    top: -180px;
+    right: 80px;
+  }
+  .floater-three {
+    top: -70px;
+    left: 70px;
+  }
+  .floater-four {
+    top: -190px;
+    right: 70px;
+  }
+  .floater-five {
+    top: -150px;
+    right: 45px;
+  }
+  .floater-six {
+    top: -30px;
+    left: 80px;
+  }
+  .floater-seven {
+    top: -160px;
+    left: 55px;
+  }
+
+  .floater-eight {
+    top: -95px;
+    right: inherit;
+    left: 30px;
+  }
+
+  .floater-nine {
+    top: -50px;
+    right: 60px;
+    left: inherit;
+  }
+  .floater-ten {
+    top: -160px;
+    left: 60px;
+  }
+  .floater-eleven {
+    top: -140px;
+    right: 40px;
+  }
+  .floater-twelve {
+    top: -40px;
+    left: 60px;
+  }
+  .floater-thirteen {
+    top: -140px;
+    left: 70px;
+  }
+  .floater-fourteen {
+    top: -110px;
+    left: 110px;
+  }
+  .floater-fifteen {
+    top: -50px;
+    right: 70px;
   }
 }

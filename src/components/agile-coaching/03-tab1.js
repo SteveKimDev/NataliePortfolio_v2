@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import AgileCoachingImg1 from './09-agile-coaching-img1';
+import FloaterDivs from './14-tab1-floater-divs';
 
 import * as CoachingStyle from './coaching.module.css';
 
@@ -8,6 +9,7 @@ const TabOne = () => (
   <Row>
     <Col xl={5} sm={3} className={` ${CoachingStyle.tabCol1}`}>
       <AgileCoachingImg1 />
+      <FloaterDivs />
     </Col>
     <Col xl={7} sm={9} className={`${CoachingStyle.tabCol2}`}>
       <div className={`vert-center ${CoachingStyle.tabDescription}`}>

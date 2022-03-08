@@ -26,33 +26,81 @@ const ToolsAndPractices = () => (
     </AnimationOnScroll>
     <Row>
       {/* tab 1 */}
-      <Col xl={6} className={`float-shadow white-btn ${CoachingStyle.tab}`}>
-        <TabOne />
+      <Col xl={6} className={`${CoachingStyle.tab}`}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
+          <div className={`float-shadow white-btn ${CoachingStyle.tabDiv}`}>
+            <TabOne />
+          </div>
+        </AnimationOnScroll>
       </Col>
 
       {/* tab 2 */}
-      <Col xl={6} className={`float-shadow white-btn ${CoachingStyle.tab}`}>
-        <TabTwo />
+      <Col xl={6} className={`${CoachingStyle.tab}`}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
+          <div className={`float-shadow white-btn ${CoachingStyle.tabDiv}`}>
+            <TabTwo />
+          </div>
+        </AnimationOnScroll>
       </Col>
 
       {/* tab 3 */}
-      <Col xl={6} className={`float-shadow white-btn ${CoachingStyle.tab}`}>
-        <TabThree />
+      <Col xl={6} className={`${CoachingStyle.tab}`}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
+          <div className={`float-shadow white-btn ${CoachingStyle.tabDiv}`}>
+            <TabThree />
+          </div>
+        </AnimationOnScroll>
       </Col>
 
       {/* tab 4 */}
-      <Col xl={6} className={`float-shadow white-btn ${CoachingStyle.tab}`}>
-        <TabFour />
+      <Col xl={6} className={`${CoachingStyle.tab}`}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
+          <div className={`float-shadow white-btn ${CoachingStyle.tabDiv}`}>
+            <TabFour />
+          </div>
+        </AnimationOnScroll>
       </Col>
 
       {/* tab 5 */}
-      <Col xl={6} className={`float-shadow white-btn ${CoachingStyle.tab}`}>
-        <TabFive />
+      <Col xl={6} className={`${CoachingStyle.tab}`}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
+          <div className={`float-shadow white-btn ${CoachingStyle.tabDiv}`}>
+            <TabFive />
+          </div>
+        </AnimationOnScroll>
       </Col>
 
       {/* tab 6 */}
-      <Col xl={6} className={`${CoachingStyle.tab} ${CoachingStyle.tabLast}`}>
-        <TabSix />
+      <Col xl={6} className={`${CoachingStyle.tab}`}>
+        <AnimationOnScroll
+          animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'
+          offset={100}
+        >
+          <div className={`${CoachingStyle.tabLast}`}>
+            <TabSix />
+          </div>
+        </AnimationOnScroll>
       </Col>
     </Row>
   </div>
