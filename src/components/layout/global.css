@@ -35,6 +35,14 @@ a:hover {
   color: #cb63ff;
 }
 
+ul li {
+  margin-top: 10px;
+}
+
+ul li::marker {
+  color: #cb63ff;
+}
+
 .section {
   padding-top: 100px;
   padding-left: 150px;
@@ -61,6 +69,16 @@ a:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+.section-bkgd-color {
+  background: rgb(212, 239, 254);
+  background: linear-gradient(
+    0deg,
+    rgba(212, 239, 254, 1) 12%,
+    rgba(212, 239, 254, 0.4962359943977591) 25%,
+    rgba(255, 255, 255, 0) 50%
+  );
 }
 
 .section-title {
@@ -108,27 +126,6 @@ a:hover {
 
 .mb-3rem {
   margin-bottom: 3rem;
-}
-
-.previous-page-div {
-  font-size: 0.8rem;
-  margin-top: 25px;
-  float: right;
-}
-
-@media (max-width: 991px) {
-  .previous-page-div {
-    margin-top: 30px;
-    margin-left: -25px;
-    float: none;
-    text-align: center;
-  }
-}
-
-.back-svg {
-  width: 25px;
-  margin-top: -5px;
-  margin-right: 10px;
 }
 
 .float-shadow {
@@ -530,4 +527,56 @@ a:hover {
   .footer-icon-div {
     margin-top: 30px;
   }
+}
+
+/* faded logo */
+.faded-logo {
+  position: absolute !important;
+  top: -10vh;
+  left: -10vw;
+  width: 45vw;
+  opacity: 0.3;
+}
+
+@media (max-width: 991px) {
+  .faded-logo {
+    width: 70vw;
+  }
+  #story .faded-logo {
+    top: 50px;
+  }
+  .intro-section .faded-logo {
+    top: -10vh;
+  }
+}
+
+@media (max-width: 575px) {
+  .faded-logo {
+    width: 90vw;
+  }
+  #story .faded-logo {
+    top: 0;
+  }
+}
+
+/* previous pagelink */
+.previous-page-div {
+  font-size: 0.8rem;
+  margin-top: 25px;
+  float: right;
+}
+
+@media (max-width: 991px) {
+  .previous-page-div {
+    margin-top: 30px;
+    margin-left: -25px;
+    float: none;
+    text-align: center;
+  }
+}
+
+.back-svg {
+  width: 25px;
+  margin-top: -5px;
+  margin-right: 10px;
 }

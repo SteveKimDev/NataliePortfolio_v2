@@ -1,17 +1,17 @@
 import React from 'react';
 import Layout from '../components/layout/layout';
 import Seo from '../components/seo';
-import AgileCoachingIntro from '../components/agile-coaching/01-agile-coaching-intro';
+import Intro from '../components/agile-coaching/01-intro';
 import ToolsAndPractices from '../components/agile-coaching/02-tools-and-practices';
 
-const HomePage = () => (
+const AgileCoachingPage = () => (
   <div>
     <Layout>
       <Seo title='Agile Coaching' />
-      <AgileCoachingIntro />
+      <Intro />
       <ToolsAndPractices />
     </Layout>
   </div>
 );
 
-export default HomePage;
+export default AgileCoachingPage;

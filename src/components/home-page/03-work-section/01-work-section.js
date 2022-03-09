@@ -13,7 +13,10 @@ import FloaterDivs from './07-floater-divs';
 import * as WorkStyle from './work.module.css';
 
 const WorkSection = () => (
-  <div className={`section ${WorkStyle.workSection}`} id='work'>
+  <div
+    className={`section section-bkgd-color ${WorkStyle.workSection}`}
+    id='work'
+  >
     <Parallax speed={5}>
       <WorkContent />
     </Parallax>

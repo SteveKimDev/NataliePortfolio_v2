@@ -3,14 +3,6 @@
   position: relative !important;
 }
 
-.faded-logo {
-  position: absolute !important;
-  top: -10vh;
-  left: -10vw;
-  width: 45vw;
-  opacity: 0.3;
-}
-
 .subtitle {
   font-size: 1.5rem;
   font-weight: 500;
@@ -36,20 +28,9 @@
 }
 
 @media (max-width: 991px) {
-  .faded-logo {
-    top: 50px;
-    width: 70vw;
-  }
   .subtitle {
     font-size: 1rem;
     width: 300px;
-  }
-}
-
-@media (max-width: 575px) {
-  .faded-logo {
-    top: 0;
-    width: 90vw;
   }
 }
 /* End Story Section */

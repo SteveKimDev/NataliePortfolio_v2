@@ -3,13 +3,6 @@
 }
 
 .tools-section {
-  background: rgb(212, 239, 254);
-  background: linear-gradient(
-    0deg,
-    rgba(212, 239, 254, 1) 12%,
-    rgba(212, 239, 254, 0.4962359943977591) 25%,
-    rgba(255, 255, 255, 0) 50%
-  );
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -546,9 +539,6 @@
 }
 
 @media (max-width: 991px) {
-  .intro-section .faded-logo {
-    top: -10vh;
-  }
   .agile-coaching-img1 {
     width: 80%;
     left: 1vw;

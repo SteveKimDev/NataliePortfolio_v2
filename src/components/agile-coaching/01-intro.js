@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Parallax } from 'react-scroll-parallax';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import FadedLogoImg from '../home-page/02-story-section/02-faded-logo';
+import FadedLogoImg from '../layout/logo-faded';
 
 import * as CoachingStyle from './coaching.module.css';
 
-const AgileCoachingIntro = () => (
+const Intro = () => (
   <div className={`section ${CoachingStyle.introSection}`}>
     <Parallax speed={-5}>
       <FadedLogoImg />
@@ -16,7 +16,9 @@ const AgileCoachingIntro = () => (
         animateOut='animate__fadeOut'
         offset={100}
       >
-        <h3 className={`section-title text-align-center`}>Agile Coaching</h3>
+        <h3 className={`section-title text-align-center mb-2rem`}>
+          Agile Coaching
+        </h3>
         <p>
           I’ve been an agile practitioner for 15 years, specializing in both
           Scrum and Kanban. I’ve had the privilege of working with many great
@@ -32,4 +34,4 @@ const AgileCoachingIntro = () => (
   </div>
 );
 
-export default AgileCoachingIntro;
+export default Intro;

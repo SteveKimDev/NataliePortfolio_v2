@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Parallax } from 'react-scroll-parallax';
-import FadedLogoImg from './02-faded-logo';
+import FadedLogoImg from '../../layout/logo-faded';
 import StoryContent from './03-story-content';
 
 import * as StoryStyle from './story.module.css';

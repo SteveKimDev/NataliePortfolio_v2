@@ -8,9 +8,9 @@ import ContactContent from './03-contact-content';
 
 import * as ContactStyle from './contact.module.css';
 
-const FunctionName = () => (
+const ContactSection = () => (
   <div className={`section`}>
-    <Parallax speed={5}>
+    <Parallax speed={2.5}>
       <AnimationOnScroll
         animateIn='animate__fadeIn'
         animateOut='animate__fadeOut'
@@ -32,4 +32,4 @@ const FunctionName = () => (
   </div>
 );
 
-export default FunctionName;
+export default ContactSection;
