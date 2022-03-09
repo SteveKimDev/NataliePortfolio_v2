@@ -1,9 +1,15 @@
 import * as React from 'react';
 import { Parallax } from 'react-scroll-parallax';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import FadedLogoImg from '../home-page/02-story-section/02-faded-logo';
+
+import * as CoachingStyle from './coaching.module.css';
 
 const AgileCoachingIntro = () => (
-  <div className={`section`}>
+  <div className={`section ${CoachingStyle.introSection}`}>
+    <Parallax speed={-5}>
+      <FadedLogoImg />
+    </Parallax>
     <Parallax speed={5}>
       <AnimationOnScroll
         animateIn='animate__fadeIn'

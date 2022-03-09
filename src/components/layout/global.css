@@ -110,6 +110,27 @@ a:hover {
   margin-bottom: 3rem;
 }
 
+.previous-page-div {
+  font-size: 0.8rem;
+  margin-top: 25px;
+  float: right;
+}
+
+@media (max-width: 991px) {
+  .previous-page-div {
+    margin-top: 30px;
+    margin-left: -25px;
+    float: none;
+    text-align: center;
+  }
+}
+
+.back-svg {
+  width: 25px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
 .float-shadow {
   -webkit-box-shadow: -4px -4px 6px 0px #f4f4f4, 4px 4px 6px 0px #cbcbcb;
   box-shadow: -4px -4px 6px 0px #f4f4f4, 4px 4px 6px 0px #cbcbcb;

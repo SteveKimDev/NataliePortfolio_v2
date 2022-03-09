@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Row, Col } from 'react-bootstrap';
 import TabOne from './03-tab1';
@@ -7,6 +8,7 @@ import TabThree from './05-tab3';
 import TabFour from './06-tab4';
 import TabFive from './07-tab5';
 import TabSix from './08-tab6';
+import BackSVG from '../../svg/back.svg';
 
 import * as CoachingStyle from './coaching.module.css';
 
@@ -103,6 +105,12 @@ const ToolsAndPractices = () => (
         </AnimationOnScroll>
       </Col>
     </Row>
+    <div className={`previous-page-div`}>
+      <Link to='/#work'>
+        <BackSVG className={`back-svg`} />
+        Previous Page
+      </Link>
+    </div>
   </div>
 );
 
