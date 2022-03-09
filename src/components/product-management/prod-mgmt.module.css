@@ -7,15 +7,15 @@
   padding-top: 50px;
 }
 
-.skills-exp-section {
-  padding-top: 50px;
-  padding-bottom: 100px;
-}
-
 .mmi-img {
   width: 50%;
   border: 10px solid #fff;
   border-radius: 10px;
+}
+
+.skills-exp-section {
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .skills-col1-div {

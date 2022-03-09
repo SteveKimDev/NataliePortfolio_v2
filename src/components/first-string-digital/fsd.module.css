@@ -1,0 +1,17 @@
+.intro-section {
+  position: relative !important;
+}
+
+.fsd-img1-section {
+  position: relative !important;
+  padding-top: 50px;
+}
+.fsd-img1 {
+  width: 50%;
+  border: 10px solid #fff;
+  border-radius: 10px;
+}
+
+.tech-stack-section {
+  padding-top: 50px;
+}

@@ -17,7 +17,7 @@ const Intro = () => (
         offset={100}
       >
         <h3 className={`section-title text-align-center mb-2rem`}>
-          Digital Product Managment
+          Digital Product Management
         </h3>
         <p>
           Over the past several years I have lead project teams in web redesigns

@@ -70,7 +70,7 @@ const WorkSection = () => (
           <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg3 />
             <Link
-              to='/first-string'
+              to='/first-string-digital-web-project'
               className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               First String Web Project
@@ -89,7 +89,7 @@ const WorkSection = () => (
           <div className={`float-shadow white-btn ${WorkStyle.workTab} `}>
             <WorkImg4 />
             <Link
-              to='/las-uvas'
+              to='/las-uvas-web-project'
               className={`float-shadow purple-btn ${WorkStyle.workLink}`}
             >
               Las Uvas Web Project
