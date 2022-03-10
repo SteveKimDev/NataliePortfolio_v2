@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import FloaterDivs from '../product-management/05-floater-divs';
+import FloaterDivs from './02a-floater-divs';
 import FSDImg1 from './03-fsd-img1';
 import * as FSDStyle from './fsd.module.css';
 

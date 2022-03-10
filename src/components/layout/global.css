@@ -563,13 +563,12 @@ ul li::marker {
 .github-link-div,
 .website-link-div {
   margin-top: 50px;
-}
-
-.project-page-link {
   transition: transform 0.5s linear;
 }
 
-.project-page-link:hover {
+.previous-page-div:hover,
+.github-link-div:hover,
+.website-link-div:hover {
   transform: scale(1.05);
 }
 

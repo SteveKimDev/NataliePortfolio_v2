@@ -47,6 +47,76 @@
   margin-top: 50px;
 }
 
+.floater1 {
+  position: absolute !important;
+  bottom: 35vh;
+  left: 12vw;
+}
+
+.floater2 {
+  position: absolute !important;
+  bottom: 33vh;
+  left: 16vw;
+}
+
+.floater3 {
+  position: absolute !important;
+  bottom: 13vh;
+  left: 8vw;
+}
+
+.floater4 {
+  position: absolute !important;
+  bottom: 3vh;
+  left: 16vw;
+}
+
+.floater5 {
+  position: absolute !important;
+  bottom: 30vh;
+  right: 12vw;
+}
+
+.floater6 {
+  position: absolute !important;
+  bottom: 10vh;
+  right: 10vw;
+}
+
+.floater7 {
+  position: absolute !important;
+  bottom: 5vh;
+  right: 13vw;
+}
+
+/* iPad Pro 12 Portrait View */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) {
+  .floater1 {
+    bottom: 20vh;
+    left: 10vw;
+  }
+  .floater2 {
+    bottom: 18vh;
+  }
+  .floater3 {
+    bottom: 8vh;
+  }
+  .floater4 {
+    bottom: 1vh;
+  }
+  .floater5 {
+    bottom: 17vh;
+  }
+  .floater6 {
+    bottom: 5vh;
+    right: 9vw;
+  }
+  .floater7 {
+    bottom: 2vh;
+    right: 15vw;
+  }
+}
+
 @media (max-width: 991px) {
   .fsd-img1,
   .fsd-img2,
@@ -79,6 +149,40 @@
     margin-top: 30px;
     margin-left: 0;
   }
+  .floater1 {
+    bottom: 25vh;
+    left: 1vw;
+  }
+  .floater2 {
+    bottom: 31vh;
+  }
+  .floater3 {
+    bottom: 10vh;
+    left: 3vw;
+  }
+  .floater4 {
+    bottom: -6vh;
+    left: 25vw;
+  }
+  .floater5 {
+    bottom: 31vh;
+    right: 30vw;
+  }
+  .floater6 {
+    right: 0vw;
+  }
+  .floater7 {
+    right: 3vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .floater2 {
+    bottom: 29.5vh;
+  }
+  .floater5 {
+    bottom: 30vh;
+  }
 }
 
 @media (max-width: 575px) {
@@ -110,5 +214,15 @@
   }
   .stack-col6 {
     margin-bottom: 30px;
+  }
+  .floater3 {
+    bottom: 0vh;
+    left: -1vh;
+  }
+  .floater5 {
+    bottom: 25vh;
+  }
+  .floater7 {
+    bottom: -8vh;
   }
 }
