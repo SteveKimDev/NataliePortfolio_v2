@@ -18,8 +18,14 @@ const SkillsAndExperience = () => (
         offset={100}
       >
         <h4 className={`section-subtitle  mb-1rem`}>Skills &amp; Experience</h4>
-        <Row>
-          <Col lg={6}>
+      </AnimationOnScroll>
+      <Row>
+        <Col lg={6}>
+          <AnimationOnScroll
+            animateIn='animate__fadeIn'
+            animateOut='animate__fadeOut'
+            offset={100}
+          >
             <div className={ProdMgmtStyle.skillsCol1Div}>
               <p>
                 My background includes several years of hands-on skill
@@ -38,8 +44,14 @@ const SkillsAndExperience = () => (
                 <li>Web Ccontent Accessibility Compliance (WCAG)</li>
               </ul>
             </div>
-          </Col>
-          <Col lg={6}>
+          </AnimationOnScroll>
+        </Col>
+        <Col lg={6}>
+          <AnimationOnScroll
+            animateIn='animate__fadeIn'
+            animateOut='animate__fadeOut'
+            offset={100}
+          >
             <div className={ProdMgmtStyle.skillsCol2Div}>
               <p>
                 I have a proven track-record spanning 10 years leading teams in
@@ -58,9 +70,9 @@ const SkillsAndExperience = () => (
                 <li>Executive, stakeholder and client briefings.</li>
               </ul>
             </div>
-          </Col>
-        </Row>
-      </AnimationOnScroll>
+          </AnimationOnScroll>
+        </Col>
+      </Row>
     </Parallax>
     <div className={`previous-page-div`}>
       <Link to='/#work'>
