@@ -32,42 +32,6 @@
   clip-path: circle(80% at 86% 55%);
 }
 
-.floater-one {
-  position: absolute !important;
-  bottom: 550px;
-  left: 28%;
-}
-
-.floater-two {
-  position: absolute !important;
-  bottom: 540px;
-  right: 20%;
-}
-
-.floater-three {
-  position: absolute !important;
-  bottom: 475px;
-  right: 28%;
-}
-
-.floater-four {
-  position: absolute !important;
-  bottom: 275px;
-  left: 25%;
-}
-
-.floater-five {
-  position: absolute !important;
-  bottom: 200px;
-  left: 17%;
-}
-
-.floater-six {
-  position: absolute !important;
-  bottom: 265px;
-  right: 5%;
-}
-
 .profile-img {
   position: absolute !important;
   bottom: 0;
@@ -193,30 +157,66 @@
   }
 }
 
+.floater1 {
+  position: absolute !important;
+  bottom: 30vh;
+  left: 28%;
+}
+
+.floater2 {
+  position: absolute !important;
+  bottom: 540px;
+  right: 20%;
+}
+
+.floater3 {
+  position: absolute !important;
+  bottom: 475px;
+  right: 28%;
+}
+
+.floater4 {
+  position: absolute !important;
+  bottom: 275px;
+  left: 25%;
+}
+
+.floater5 {
+  position: absolute !important;
+  bottom: 200px;
+  left: 17%;
+}
+
+.floater6 {
+  position: absolute !important;
+  bottom: 265px;
+  right: 5%;
+}
+
 @media (min-width: 1920px) {
   .hero-col1-div {
     margin-left: 200px;
   }
-  .floater-one {
+  .floater1 {
     bottom: 620px;
     left: 42%;
   }
-  .floater-two {
+  .floater2 {
     bottom: 575px;
     right: 20%;
   }
-  .floater-three {
+  .floater3 {
     right: 26%;
   }
-  .floater-four {
+  .floater4 {
     bottom: 300px;
     left: 36%;
   }
-  .floater-five {
+  .floater5 {
     bottom: 200px;
     left: 30%;
   }
-  .floater-six {
+  .floater6 {
     bottom: 280px;
     right: 7%;
   }
@@ -246,26 +246,26 @@
   .hero-col1-div {
     margin-left: 200px;
   }
-  .floater-one {
+  .floater1 {
     bottom: 600px;
     left: 38%;
   }
-  .floater-two {
+  .floater2 {
     bottom: 570px;
     right: 18%;
   }
-  .floater-three {
+  .floater3 {
     right: 26%;
   }
-  .floater-four {
+  .floater4 {
     bottom: 285px;
     left: 30%;
   }
-  .floater-five {
+  .floater5 {
     bottom: 210px;
     left: 24%;
   }
-  .floater-six {
+  .floater6 {
     bottom: 295px;
     right: 5%;
   }
@@ -290,25 +290,25 @@
 }
 
 @media (min-width: 1600px) and (max-width: 1679px) {
-  .floater-one {
+  .floater1 {
     bottom: 625px;
     left: 32%;
   }
-  .floater-two {
+  .floater2 {
     bottom: 600px;
     right: 18%;
   }
-  .floater-three {
+  .floater3 {
     bottom: 530px;
   }
-  .floater-four {
+  .floater4 {
     bottom: 325px;
   }
-  .floater-five {
+  .floater5 {
     bottom: 250px;
     left: 17%;
   }
-  .floater-six {
+  .floater6 {
     bottom: 320px;
     right: 5%;
   }
@@ -337,23 +337,23 @@
 }
 
 @media (min-width: 1440px) and (max-width: 1599px) {
-  .floater-one {
+  .floater1 {
     bottom: 630px;
   }
-  .floater-two {
+  .floater2 {
     bottom: 600px;
   }
-  .floater-three {
+  .floater3 {
     bottom: 520px;
   }
-  .floater-four {
+  .floater4 {
     left: 20%;
   }
-  .floater-five {
+  .floater5 {
     bottom: 225px;
     left: 12%;
   }
-  .floater-six {
+  .floater6 {
     bottom: 300px;
     right: 5%;
   }
@@ -387,7 +387,7 @@
 
 /* iPad Pro 12 Landscape View */
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) {
-  .floater-one {
+  .floater1 {
     bottom: 550px;
   }
   .hero-img1 {
@@ -419,27 +419,27 @@
   .hero-subtitle {
     font-size: 0.9rem;
   }
-  .floater-one {
+  .floater1 {
     bottom: 490px;
     left: 18%;
   }
-  .floater-two {
+  .floater2 {
     bottom: 450px;
     right: 18%;
   }
-  .floater-three {
+  .floater3 {
     bottom: 380px;
     right: 30%;
   }
-  .floater-four {
+  .floater4 {
     bottom: 260px;
     left: 13%;
   }
-  .floater-five {
+  .floater5 {
     bottom: 175px;
     left: 5%;
   }
-  .floater-six {
+  .floater6 {
     bottom: 230px;
   }
   .profile-img {
@@ -465,23 +465,23 @@
 
 /* iPad Pro 11 Landscape View */
 @media only screen and (min-device-width: 1194px) and (max-device-width: 1194px) and (min-device-height: 834px) and (max-device-height: 834px) and (min-width: 1194px) and (max-width: 1194px) and (orientation: landscape) {
-  .floater-one {
+  .floater1 {
     bottom: 480px !important;
     left: 26% !important;
   }
-  .floater-three {
+  .floater3 {
     bottom: 385px !important;
     right: 28% !important;
   }
-  .floater-four {
+  .floater4 {
     bottom: 270px !important;
     left: 20% !important;
   }
-  .floater-five {
+  .floater5 {
     bottom: 190px !important;
     left: 13% !important;
   }
-  .floater-six {
+  .floater6 {
     bottom: 250px !important;
   }
   .hero-img1 {
@@ -539,27 +539,27 @@
     height: 700px;
     clip-path: circle(88.2% at 49% 100%);
   }
-  .floater-one {
+  .floater1 {
     bottom: 750px;
     left: 22%;
   }
-  .floater-two {
+  .floater2 {
     bottom: 700px;
     right: 18%;
   }
-  .floater-three {
+  .floater3 {
     bottom: 600px;
     right: 28%;
   }
-  .floater-four {
+  .floater4 {
     bottom: 400px;
     left: 15%;
   }
-  .floater-five {
+  .floater5 {
     bottom: 300px;
     left: 10%;
   }
-  .floater-six {
+  .floater6 {
     bottom: 400px;
   }
   .profile-img {
@@ -613,26 +613,26 @@
     height: 400px;
     clip-path: circle(88.2% at 49% 100%);
   }
-  .floater-one {
+  .floater1 {
     bottom: 500px;
     left: 16%;
   }
-  .floater-two {
+  .floater2 {
     bottom: 500px;
     right: 23%;
   }
-  .floater-three {
+  .floater3 {
     bottom: 455px;
     right: 35%;
   }
-  .floater-four {
+  .floater4 {
     bottom: 250px;
   }
-  .floater-five {
+  .floater5 {
     bottom: 175px;
     left: 7%;
   }
-  .floater-six {
+  .floater6 {
     bottom: 250px;
   }
   .profile-img {
@@ -663,20 +663,20 @@
   .hero-title {
     font-size: 3rem;
   }
-  .floater-one {
+  .floater1 {
     left: 13%;
   }
-  .floater-two {
+  .floater2 {
     bottom: 485px;
     right: 26%;
   }
-  .floater-three {
+  .floater3 {
     bottom: 435px;
   }
-  .floater-four {
+  .floater4 {
     bottom: 250px;
   }
-  .floater-five {
+  .floater5 {
     bottom: 200px;
   }
   .hero-img1 {
