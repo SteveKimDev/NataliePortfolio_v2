@@ -28,7 +28,6 @@ h6 {
 a {
   color: #cb63ff;
   text-decoration: none;
-  transition: 0.5s linear;
 }
 
 a:hover {
@@ -559,24 +558,34 @@ ul li::marker {
   }
 }
 
-/* previous pagelink */
-.previous-page-div {
-  font-size: 0.8rem;
-  margin-top: 25px;
-  float: right;
+/* Project Page Links */
+.previous-page-div,
+.github-link-div,
+.website-link-div {
+  margin-top: 50px;
+}
+
+.project-page-link {
+  transition: transform 0.5s linear;
+}
+
+.project-page-link:hover {
+  transform: scale(1.05);
+}
+
+.github-svg,
+.website-link-svg,
+.back-svg {
+  fill: #cb63ff;
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
 }
 
 @media (max-width: 991px) {
-  .previous-page-div {
-    margin-top: 30px;
-    margin-left: -25px;
-    float: none;
+  .previous-page-div,
+  .github-link-div,
+  .website-link-div {
     text-align: center;
   }
-}
-
-.back-svg {
-  width: 25px;
-  margin-top: -5px;
-  margin-right: 10px;
 }

@@ -16,7 +16,7 @@ const ContentfulImg = () => {
   `);
   return (
     <GatsbyImage
-      class={` content-align-center ${StackStyle.stackImg}`}
+      className={` content-align-center ${StackStyle.stackImg}`}
       alt='Contentful img'
       image={data.file.childImageSharp.gatsbyImageData}
     />

@@ -16,7 +16,7 @@ const NetlifyImg = () => {
   `);
   return (
     <GatsbyImage
-      class={` content-align-center ${StackStyle.stackImg}`}
+      className={` content-align-center ${StackStyle.stackImg}`}
       alt='Netlify img'
       image={data.file.childImageSharp.gatsbyImageData}
     />

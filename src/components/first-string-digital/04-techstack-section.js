@@ -74,7 +74,7 @@ const TechStackSection = () => (
             animateOut='animate__fadeOut'
             offset={100}
           >
-            <WeglotStack />
+            <NetlifyStack />
           </AnimationOnScroll>
         </Col>
         <Col className={FSDStyle.stackCol7}>
@@ -83,7 +83,7 @@ const TechStackSection = () => (
             animateOut='animate__fadeOut'
             offset={100}
           >
-            <NetlifyStack />
+            <WeglotStack />
           </AnimationOnScroll>
         </Col>
       </Row>

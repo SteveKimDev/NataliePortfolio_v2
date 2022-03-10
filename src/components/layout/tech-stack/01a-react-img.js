@@ -16,7 +16,7 @@ const ReactImg = () => {
   `);
   return (
     <GatsbyImage
-      class={` content-align-center ${StackStyle.stackImg}`}
+      className={` content-align-center ${StackStyle.stackImg}`}
       alt='React img'
       image={data.file.childImageSharp.gatsbyImageData}
     />

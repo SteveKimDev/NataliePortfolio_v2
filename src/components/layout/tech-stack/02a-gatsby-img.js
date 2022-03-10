@@ -16,7 +16,7 @@ const GatsbyImg = () => {
   `);
   return (
     <GatsbyImage
-      class={` content-align-center ${StackStyle.stackImg}`}
+      className={` content-align-center ${StackStyle.stackImg}`}
       alt='Gatsby img'
       image={data.file.childImageSharp.gatsbyImageData}
     />

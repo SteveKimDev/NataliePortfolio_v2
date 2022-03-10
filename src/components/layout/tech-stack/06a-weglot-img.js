@@ -16,7 +16,7 @@ const WeglotImg = () => {
   `);
   return (
     <GatsbyImage
-      class={` content-align-center ${StackStyle.stackImg}`}
+      className={` content-align-center ${StackStyle.stackImg}`}
       alt='Weglot img'
       image={data.file.childImageSharp.gatsbyImageData}
     />

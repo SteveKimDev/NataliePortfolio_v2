@@ -16,7 +16,7 @@ const WordpressImg = () => {
   `);
   return (
     <GatsbyImage
-      class={` content-align-center ${StackStyle.stackImg}`}
+      className={` content-align-center ${StackStyle.stackImg}`}
       alt='Wordpress img'
       image={data.file.childImageSharp.gatsbyImageData}
     />

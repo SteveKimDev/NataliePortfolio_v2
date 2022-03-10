@@ -16,7 +16,7 @@ const GraphQLImg = () => {
   `);
   return (
     <GatsbyImage
-      class={` content-align-center ${StackStyle.stackImg}`}
+      className={` content-align-center ${StackStyle.stackImg}`}
       alt='GraphQL img'
       image={data.file.childImageSharp.gatsbyImageData}
     />

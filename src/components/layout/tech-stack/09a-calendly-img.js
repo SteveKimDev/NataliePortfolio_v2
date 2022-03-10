@@ -16,7 +16,7 @@ const CalendlyImg = () => {
   `);
   return (
     <GatsbyImage
-      class={` content-align-center ${StackStyle.stackImg}`}
+      className={` content-align-center ${StackStyle.stackImg}`}
       alt='Calendly img'
       image={data.file.childImageSharp.gatsbyImageData}
     />
