@@ -1,9 +1,9 @@
 /* Hero Section */
 .hero-col1-div {
-  width: 34.5vw;
   margin-top: 150px;
   margin-bottom: 150px;
   margin-left: 100px;
+  width: 35vw;
 }
 
 .hero-title {
@@ -23,20 +23,18 @@
 }
 
 .hero-col2-div {
-  position: relative !important;
   background-color: #6ccaff;
   opacity: 0.1;
   margin-top: -85px;
-  width: 100%;
   height: calc(100% + 85px);
-  clip-path: circle(80% at 86% 55%);
+  clip-path: circle(80% at 86% 50%);
 }
 
 .profile-img {
   position: absolute !important;
   bottom: 0;
-  right: 10vw;
-  width: 350px;
+  right: 20%;
+  width: 400px;
   -webkit-animation: fade-in 3s 0s both;
   animation: fade-in 3s 0s both;
 }
@@ -59,8 +57,8 @@
 
 .hero-img1 {
   position: absolute !important;
-  bottom: 420px;
-  left: 20%;
+  bottom: 400px;
+  left: 9vw;
   width: 110px;
   -webkit-animation: fade-in 2s 0.25s both;
   animation: fade-in 2s 0.25s both;
@@ -85,7 +83,7 @@
 .hero-img2 {
   position: absolute !important;
   bottom: 360px;
-  right: 7%;
+  right: 3vw;
   width: 110px;
   -webkit-animation: fade-in 2s 0.5s both;
   animation: fade-in 2s 0.5s both;
@@ -110,7 +108,7 @@
 .hero-img3 {
   position: absolute !important;
   bottom: 50px;
-  left: 12%;
+  left: 5vw;
   width: 110px;
   -webkit-animation: fade-in 2s 0.75s both;
   animation: fade-in 2s 0.75s both;
@@ -134,8 +132,8 @@
 
 .hero-img4 {
   position: absolute !important;
-  right: 3%;
   bottom: 100px;
+  right: 1.5vw;
   width: 110px;
   -webkit-animation: fade-in 2s 1s both;
   animation: fade-in 2s 1s both;
@@ -159,222 +157,209 @@
 
 .floater1 {
   position: absolute !important;
-  bottom: 30vh;
-  left: 28%;
+  bottom: 530px;
+  left: 13vw;
 }
 
 .floater2 {
   position: absolute !important;
-  bottom: 540px;
-  right: 20%;
+  bottom: 500px;
+  right: 9vw;
 }
 
 .floater3 {
   position: absolute !important;
-  bottom: 475px;
-  right: 28%;
+  bottom: 450px;
+  right: 15vw;
 }
 
 .floater4 {
   position: absolute !important;
   bottom: 275px;
-  left: 25%;
+  left: 10vw;
 }
 
 .floater5 {
   position: absolute !important;
-  bottom: 200px;
-  left: 17%;
+  bottom: 190px;
+  left: 8vw;
 }
 
 .floater6 {
   position: absolute !important;
-  bottom: 265px;
-  right: 5%;
+  bottom: 250px;
+  right: 6vw;
 }
 
 @media (min-width: 1920px) {
-  .hero-col1-div {
-    margin-left: 200px;
-  }
-  .floater1 {
-    bottom: 620px;
-    left: 42%;
-  }
-  .floater2 {
-    bottom: 575px;
-    right: 20%;
-  }
-  .floater3 {
-    right: 26%;
-  }
-  .floater4 {
-    bottom: 300px;
-    left: 36%;
-  }
-  .floater5 {
-    bottom: 200px;
-    left: 30%;
-  }
-  .floater6 {
-    bottom: 280px;
-    right: 7%;
-  }
   .hero-img1 {
-    width: 130px;
-    bottom: 400px;
-    left: 35%;
+    bottom: 430px;
+    left: 16vw;
   }
   .hero-img2 {
-    width: 130px;
-    bottom: 350px;
-    right: 10%;
+    bottom: 400px;
+    right: 5vw;
   }
   .hero-img3 {
-    width: 130px;
-    bottom: 30px;
-    left: 30%;
+    bottom: 50px;
+    left: 13vw;
   }
   .hero-img4 {
-    width: 130px;
-    bottom: 50px;
-    right: 5%;
+    bottom: 100px;
+    right: 3vw;
+  }
+  .floater1 {
+    bottom: 610px;
+    left: 19vw;
+  }
+  .floater2 {
+    bottom: 590px;
+    right: 9vw;
+  }
+  .floater3 {
+    bottom: 520px;
+    right: 14vw;
+  }
+  .floater4 {
+    bottom: 340px;
+    left: 16.5vw;
+  }
+  .floater5 {
+    bottom: 240px;
+    left: 15vw;
+  }
+  .floater6 {
+    bottom: 310px;
+    right: 7vw;
   }
 }
 
 @media (min-width: 1680px) and (max-width: 1919px) {
-  .hero-col1-div {
-    margin-left: 200px;
-  }
-  .floater1 {
-    bottom: 600px;
-    left: 38%;
-  }
-  .floater2 {
-    bottom: 570px;
-    right: 18%;
-  }
-  .floater3 {
-    right: 26%;
-  }
-  .floater4 {
-    bottom: 285px;
-    left: 30%;
-  }
-  .floater5 {
-    bottom: 210px;
-    left: 24%;
-  }
-  .floater6 {
-    bottom: 295px;
-    right: 5%;
-  }
   .hero-img1 {
-    width: 130px;
-    left: 30%;
+    bottom: 430px;
+    left: 12vw;
   }
   .hero-img2 {
-    width: 130px;
-    bottom: 360px;
-    right: 7%;
+    bottom: 410px;
+    right: 4vw;
   }
   .hero-img3 {
-    width: 130px;
-    bottom: 30px;
-    left: 22%;
+    bottom: 50px;
+    left: 9vw;
   }
   .hero-img4 {
-    width: 130px;
-    bottom: 80px;
+    bottom: 100px;
+    right: 3vw;
+  }
+  .floater1 {
+    bottom: 610px;
+    left: 15vw;
+  }
+  .floater2 {
+    bottom: 590px;
+    right: 9vw;
+  }
+  .floater3 {
+    bottom: 520px;
+    right: 15vw;
+  }
+  .floater4 {
+    bottom: 320px;
+    left: 13vw;
+  }
+  .floater5 {
+    bottom: 235px;
+    left: 11vw;
+  }
+  .floater6 {
+    bottom: 300px;
+    right: 6.5vw;
   }
 }
 
 @media (min-width: 1600px) and (max-width: 1679px) {
-  .floater1 {
-    bottom: 625px;
-    left: 32%;
-  }
-  .floater2 {
-    bottom: 600px;
-    right: 18%;
-  }
-  .floater3 {
-    bottom: 530px;
-  }
-  .floater4 {
-    bottom: 325px;
-  }
-  .floater5 {
-    bottom: 250px;
-    left: 17%;
-  }
-  .floater6 {
-    bottom: 320px;
-    right: 5%;
-  }
   .hero-img1 {
-    width: 120px;
-    bottom: 465px;
-    left: 24%;
+    bottom: 450px;
+    left: 11vw;
   }
   .hero-img2 {
-    width: 120px;
     bottom: 410px;
-    right: 8%;
+    right: 4vw;
   }
   .hero-img3 {
-    width: 120px;
-    bottom: 50px;
-    left: 16%;
+    bottom: 70px;
+    left: 7.5vw;
   }
   .hero-img4 {
-    width: 120px;
-    bottom: 100px;
+    bottom: 110px;
+    right: 3vw;
   }
-  .profile-img {
-    width: 400px;
+  .floater1 {
+    bottom: 610px;
+    left: 14.5vw;
+  }
+  .floater2 {
+    bottom: 590px;
+    right: 9vw;
+  }
+  .floater3 {
+    bottom: 520px;
+    right: 15vw;
+  }
+  .floater4 {
+    bottom: 320px;
+    left: 12vw;
+  }
+  .floater5 {
+    bottom: 220px;
+    left: 10vw;
+  }
+  .floater6 {
+    bottom: 290px;
+    right: 6.5vw;
   }
 }
 
 @media (min-width: 1440px) and (max-width: 1599px) {
+  .hero-img1 {
+    bottom: 450px;
+    left: 8vw;
+  }
+  .hero-img2 {
+    bottom: 410px;
+    right: 3vw;
+  }
+  .hero-img3 {
+    bottom: 70px;
+    left: 4vw;
+  }
+  .hero-img4 {
+    bottom: 110px;
+    right: 1.5vw;
+  }
   .floater1 {
-    bottom: 630px;
+    bottom: 610px;
+    left: 12vw;
   }
   .floater2 {
-    bottom: 600px;
+    bottom: 590px;
+    right: 8.5vw;
   }
   .floater3 {
     bottom: 520px;
+    right: 15vw;
   }
   .floater4 {
-    left: 20%;
+    bottom: 320px;
+    left: 9vw;
   }
   .floater5 {
-    bottom: 225px;
-    left: 12%;
+    bottom: 220px;
+    left: 7vw;
   }
   .floater6 {
     bottom: 300px;
-    right: 5%;
-  }
-  .hero-img1 {
-    width: 120px;
-    bottom: 465px;
-    left: 17%;
-  }
-  .hero-img2 {
-    width: 120px;
-    bottom: 410px;
-  }
-  .hero-img3 {
-    width: 120px;
-    left: 8%;
-  }
-  .hero-img4 {
-    width: 120px;
-  }
-  .profile-img {
-    width: 400px;
+    right: 5.5vw;
   }
 }
 
@@ -383,26 +368,11 @@
     margin-top: 100px;
     margin-bottom: 100px;
   }
-}
-
-/* iPad Pro 12 Landscape View */
-@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) {
-  .floater1 {
-    bottom: 550px;
+  .hero-title {
+    font-size: 4.9vw;
   }
-  .hero-img1 {
-    bottom: 400px;
-    left: 22%;
-  }
-  .hero-img2 {
-    bottom: 350px;
-  }
-  .hero-img3 {
-    bottom: 30px;
-    left: 13%;
-  }
-  .hero-img4 {
-    bottom: 80px;
+  .profile-img {
+    width: 350px;
   }
 }
 
@@ -419,96 +389,76 @@
   .hero-subtitle {
     font-size: 0.9rem;
   }
+  .hero-col2-div {
+    clip-path: circle(78% at 86% 50%);
+  }
+  .profile-img {
+    width: 250px;
+  }
+  .hero-img1 {
+    bottom: 300px;
+    left: 5vw;
+    width: 100px;
+  }
+  .hero-img2 {
+    bottom: 270px;
+    right: 3vw;
+    width: 100px;
+  }
+  .hero-img3 {
+    bottom: 20px;
+    left: 3vw;
+    width: 100px;
+  }
+  .hero-img4 {
+    bottom: 100px;
+    right: 1vw;
+    width: 100px;
+  }
+  .profile-img {
+    right: 25%;
+  }
   .floater1 {
-    bottom: 490px;
-    left: 18%;
+    bottom: 450px;
+    left: 9vw;
   }
   .floater2 {
     bottom: 450px;
-    right: 18%;
+    right: 10vw;
   }
   .floater3 {
-    bottom: 380px;
-    right: 30%;
+    bottom: 400px;
+    right: 15vw;
   }
   .floater4 {
-    bottom: 260px;
-    left: 13%;
+    bottom: 210px;
+    left: 9vw;
   }
   .floater5 {
-    bottom: 175px;
-    left: 5%;
+    bottom: 170px;
+    left: 7vw;
   }
   .floater6 {
-    bottom: 230px;
-  }
-  .profile-img {
-    width: 320px;
-  }
-  .hero-img1 {
-    bottom: 370px;
-    left: 7%;
-  }
-  .hero-img2 {
-    bottom: 310px;
-    right: 3%;
-  }
-  .hero-img3 {
-    bottom: 25px;
-    left: -3%;
-  }
-  .hero-img4 {
-    bottom: 70px;
-    right: 0;
+    bottom: 400px;
+    right: 5.5vw;
   }
 }
 
-/* iPad Pro 11 Landscape View */
 @media only screen and (min-device-width: 1194px) and (max-device-width: 1194px) and (min-device-height: 834px) and (max-device-height: 834px) and (min-width: 1194px) and (max-width: 1194px) and (orientation: landscape) {
-  .floater1 {
-    bottom: 480px !important;
-    left: 26% !important;
-  }
-  .floater3 {
-    bottom: 385px !important;
-    right: 28% !important;
-  }
-  .floater4 {
-    bottom: 270px !important;
-    left: 20% !important;
-  }
-  .floater5 {
-    bottom: 190px !important;
-    left: 13% !important;
-  }
-  .floater6 {
-    bottom: 250px !important;
+  .profile-img {
+    right: 23%;
   }
   .hero-img1 {
-    bottom: 360px !important;
-    left: 17% !important;
-  }
-  .hero-img2 {
-    bottom: 315px !important;
-    right: 5%;
+    left: 10vw;
   }
   .hero-img3 {
-    bottom: 15px !important;
-    left: 8% !important;
+    left: 7vw;
   }
-  .hero-img4 {
-    bottom: 60px !important;
-    right: 1% !important;
+  .floater4 {
+    left: 12vw;
   }
-}
-
-/* iPad Pro 12 Portrait View */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) {
-  .hero-img1 {
-    bottom: 330px !important;
-  }
-  .hero-img2 {
-    bottom: 290px !important;
+  .floater5 {
+    left: 10vw;
   }
 }
 
@@ -526,63 +476,68 @@
     font-size: 1.4rem;
     text-align: center;
   }
+  .hero-description {
+    text-align: center;
+  }
   .hero-btn {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   .hero-col2 {
-    margin-top: 150px;
+    margin-top: 50px;
   }
   .hero-col2-div {
     margin-top: 0;
-    height: 700px;
-    clip-path: circle(88.2% at 49% 100%);
-  }
-  .floater1 {
-    bottom: 750px;
-    left: 22%;
-  }
-  .floater2 {
-    bottom: 700px;
-    right: 18%;
-  }
-  .floater3 {
-    bottom: 600px;
-    right: 28%;
-  }
-  .floater4 {
-    bottom: 400px;
-    left: 15%;
-  }
-  .floater5 {
-    bottom: 300px;
-    left: 10%;
-  }
-  .floater6 {
-    bottom: 400px;
+    height: 650px;
+    clip-path: circle(70% at 50% 100%);
   }
   .profile-img {
-    right: 18vw;
-    width: 500px;
+    right: 25%;
+    width: 400px;
   }
   .hero-img1 {
-    bottom: 600px;
-    left: 14%;
+    bottom: 450px;
+    left: 14vw;
     width: 130px;
   }
   .hero-img2 {
-    bottom: 490px;
-    right: 6%;
+    bottom: 410px;
+    right: 10vw;
     width: 130px;
   }
   .hero-img3 {
-    left: 5%;
+    bottom: 120px;
+    left: 8vw;
     width: 130px;
   }
   .hero-img4 {
-    right: 3%;
+    bottom: 160px;
+    right: 5vw;
     width: 130px;
+  }
+  .floater1 {
+    bottom: 650px;
+    left: 22vw;
+  }
+  .floater2 {
+    bottom: 620px;
+    right: 21vw;
+  }
+  .floater3 {
+    bottom: 520px;
+    right: 30vw;
+  }
+  .floater4 {
+    bottom: 450px;
+    left: 2vw;
+  }
+  .floater5 {
+    bottom: 320px;
+    left: 14vw;
+  }
+  .floater6 {
+    bottom: 380px;
   }
 }
 
@@ -591,10 +546,7 @@
     left: 7%;
   }
   .hero-img3 {
-    bottom: 30px;
-  }
-  .hero-img4 {
-    right: 0%;
+    left: 1vw;
   }
 }
 
@@ -608,54 +560,60 @@
   .hero-subtitle {
     font-size: 1.3rem;
   }
+  .hero-description {
+    text-align: left;
+  }
   .hero-col2-div {
-    margin-top: 0;
+    margin-top: 100px;
     height: 400px;
-    clip-path: circle(88.2% at 49% 100%);
-  }
-  .floater1 {
-    bottom: 500px;
-    left: 16%;
-  }
-  .floater2 {
-    bottom: 500px;
-    right: 23%;
-  }
-  .floater3 {
-    bottom: 455px;
-    right: 35%;
-  }
-  .floater4 {
-    bottom: 250px;
-  }
-  .floater5 {
-    bottom: 175px;
-    left: 7%;
-  }
-  .floater6 {
-    bottom: 250px;
+    clip-path: circle(90% at 50% 100%);
   }
   .profile-img {
-    right: 13vw;
+    right: 16%;
     width: 300px;
   }
   .hero-img1 {
-    bottom: 400px;
-    left: 5%;
+    bottom: 350px;
+    left: 3vw;
     width: 100px;
   }
   .hero-img2 {
     bottom: 350px;
-    right: 7%;
+    right: 7vw;
     width: 100px;
   }
   .hero-img3 {
-    left: 10%;
+    bottom: 50px;
+    left: 5vw;
     width: 100px;
   }
   .hero-img4 {
-    right: 4%;
+    bottom: 70px;
+    right: 1vw;
     width: 100px;
+  }
+  .floater1 {
+    bottom: 480px;
+    left: 16vw;
+  }
+  .floater2 {
+    bottom: 500px;
+    right: 10vw;
+  }
+  .floater3 {
+    bottom: 455px;
+    right: 35vw;
+  }
+  .floater4 {
+    bottom: 500px;
+    left: 3vw;
+  }
+  .floater5 {
+    bottom: 200px;
+    left: 7vw;
+  }
+  .floater6 {
+    bottom: 250px;
   }
 }
 

@@ -14,7 +14,7 @@ const HersoContent = () => (
       <p className={HeroStyle.heroSubtitle}>
         I ARCHITECT MODERN DIGITAL EXPERIENCE SYSTEMS
       </p>
-      <p>
+      <p className={HeroStyle.heroDescription}>
         Ever since I was a young girl, I wanted to help build the cool,
         futuristic tech I saw in movies and on TV. Fast-forward years later - My
         background includes leading rock-star teams to produce amazing software
