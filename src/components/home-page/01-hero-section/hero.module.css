@@ -82,7 +82,7 @@
 
 .hero-img2 {
   position: absolute !important;
-  bottom: 360px;
+  bottom: 370px;
   right: 3vw;
   width: 110px;
   -webkit-animation: fade-in 2s 0.5s both;
@@ -132,7 +132,7 @@
 
 .hero-img4 {
   position: absolute !important;
-  bottom: 100px;
+  bottom: 70px;
   right: 1.5vw;
   width: 110px;
   -webkit-animation: fade-in 2s 1s both;
@@ -163,13 +163,13 @@
 
 .floater2 {
   position: absolute !important;
-  bottom: 500px;
+  bottom: 520px;
   right: 9vw;
 }
 
 .floater3 {
   position: absolute !important;
-  bottom: 450px;
+  bottom: 510px;
   right: 15vw;
 }
 
@@ -181,13 +181,13 @@
 
 .floater5 {
   position: absolute !important;
-  bottom: 190px;
+  bottom: 260px;
   left: 8vw;
 }
 
 .floater6 {
   position: absolute !important;
-  bottom: 250px;
+  bottom: 275px;
   right: 6vw;
 }
 
@@ -197,7 +197,7 @@
     left: 16vw;
   }
   .hero-img2 {
-    bottom: 400px;
+    bottom: 410px;
     right: 5vw;
   }
   .hero-img3 {
@@ -205,7 +205,7 @@
     left: 13vw;
   }
   .hero-img4 {
-    bottom: 100px;
+    bottom: 80px;
     right: 3vw;
   }
   .floater1 {
@@ -217,7 +217,7 @@
     right: 9vw;
   }
   .floater3 {
-    bottom: 520px;
+    bottom: 550px;
     right: 14vw;
   }
   .floater4 {
@@ -225,11 +225,11 @@
     left: 16.5vw;
   }
   .floater5 {
-    bottom: 240px;
+    bottom: 270px;
     left: 15vw;
   }
   .floater6 {
-    bottom: 310px;
+    bottom: 280px;
     right: 7vw;
   }
 }
@@ -248,7 +248,7 @@
     left: 9vw;
   }
   .hero-img4 {
-    bottom: 100px;
+    bottom: 70px;
     right: 3vw;
   }
   .floater1 {
@@ -260,7 +260,7 @@
     right: 9vw;
   }
   .floater3 {
-    bottom: 520px;
+    bottom: 560px;
     right: 15vw;
   }
   .floater4 {
@@ -268,7 +268,7 @@
     left: 13vw;
   }
   .floater5 {
-    bottom: 235px;
+    bottom: 285px;
     left: 11vw;
   }
   .floater6 {
@@ -283,7 +283,7 @@
     left: 11vw;
   }
   .hero-img2 {
-    bottom: 410px;
+    bottom: 420px;
     right: 4vw;
   }
   .hero-img3 {
@@ -291,7 +291,7 @@
     left: 7.5vw;
   }
   .hero-img4 {
-    bottom: 110px;
+    bottom: 80px;
     right: 3vw;
   }
   .floater1 {
@@ -303,7 +303,7 @@
     right: 9vw;
   }
   .floater3 {
-    bottom: 520px;
+    bottom: 570px;
     right: 15vw;
   }
   .floater4 {
@@ -311,11 +311,11 @@
     left: 12vw;
   }
   .floater5 {
-    bottom: 220px;
+    bottom: 290px;
     left: 10vw;
   }
   .floater6 {
-    bottom: 290px;
+    bottom: 310px;
     right: 6.5vw;
   }
 }
@@ -326,7 +326,7 @@
     left: 8vw;
   }
   .hero-img2 {
-    bottom: 410px;
+    bottom: 420px;
     right: 3vw;
   }
   .hero-img3 {
@@ -334,7 +334,7 @@
     left: 4vw;
   }
   .hero-img4 {
-    bottom: 110px;
+    bottom: 80px;
     right: 1.5vw;
   }
   .floater1 {
@@ -346,7 +346,7 @@
     right: 8.5vw;
   }
   .floater3 {
-    bottom: 520px;
+    bottom: 580px;
     right: 15vw;
   }
   .floater4 {
@@ -354,11 +354,11 @@
     left: 9vw;
   }
   .floater5 {
-    bottom: 220px;
+    bottom: 295px;
     left: 7vw;
   }
   .floater6 {
-    bottom: 300px;
+    bottom: 301px;
     right: 5.5vw;
   }
 }
@@ -394,6 +394,7 @@
   }
   .profile-img {
     width: 250px;
+    right: 25%;
   }
   .hero-img1 {
     bottom: 300px;
@@ -401,7 +402,7 @@
     width: 100px;
   }
   .hero-img2 {
-    bottom: 270px;
+    bottom: 260px;
     right: 3vw;
     width: 100px;
   }
@@ -411,23 +412,20 @@
     width: 100px;
   }
   .hero-img4 {
-    bottom: 100px;
+    bottom: 50px;
     right: 1vw;
     width: 100px;
   }
-  .profile-img {
-    right: 25%;
-  }
   .floater1 {
     bottom: 450px;
-    left: 9vw;
+    left: 10vw;
   }
   .floater2 {
-    bottom: 450px;
+    bottom: 430px;
     right: 10vw;
   }
   .floater3 {
-    bottom: 400px;
+    bottom: 420px;
     right: 15vw;
   }
   .floater4 {
@@ -435,11 +433,11 @@
     left: 9vw;
   }
   .floater5 {
-    bottom: 170px;
+    bottom: 200px;
     left: 7vw;
   }
   .floater6 {
-    bottom: 400px;
+    bottom: 220px;
     right: 5.5vw;
   }
 }
@@ -453,6 +451,12 @@
   }
   .hero-img3 {
     left: 7vw;
+  }
+  .floater1 {
+    left: 14vw;
+  }
+  .floater2 {
+    right: 9vw;
   }
   .floater4 {
     left: 12vw;
@@ -507,8 +511,8 @@
     width: 130px;
   }
   .hero-img3 {
-    bottom: 120px;
-    left: 8vw;
+    bottom: 100px;
+    left: 6vw;
     width: 130px;
   }
   .hero-img4 {
@@ -529,8 +533,8 @@
     right: 30vw;
   }
   .floater4 {
-    bottom: 450px;
-    left: 2vw;
+    bottom: 330px;
+    left: 18vw;
   }
   .floater5 {
     bottom: 320px;
@@ -547,6 +551,9 @@
   }
   .hero-img3 {
     left: 1vw;
+  }
+  .floater1 {
+    left: 16vw;
   }
 }
 
@@ -601,19 +608,19 @@
     right: 10vw;
   }
   .floater3 {
-    bottom: 455px;
+    bottom: 530px;
     right: 35vw;
   }
   .floater4 {
-    bottom: 500px;
-    left: 3vw;
+    bottom: 230px;
+    left: 5vw;
   }
   .floater5 {
-    bottom: 200px;
-    left: 7vw;
+    bottom: 500px;
+    left: 30vw;
   }
   .floater6 {
-    bottom: 250px;
+    bottom: 270px;
   }
 }
 
@@ -621,25 +628,26 @@
   .hero-title {
     font-size: 3rem;
   }
+  .hero-img1 {
+    bottom: 400px;
+    left: 0;
+  }
   .floater1 {
-    left: 13%;
+    bottom: 520px;
+    left: 13vw;
   }
   .floater2 {
-    bottom: 485px;
-    right: 26%;
+    bottom: 500px;
+    right: 10vw;
   }
   .floater3 {
-    bottom: 435px;
+    bottom: 520px;
   }
   .floater4 {
     bottom: 250px;
   }
   .floater5 {
-    bottom: 200px;
-  }
-  .hero-img1 {
-    bottom: 400px;
-    left: 0%;
+    bottom: 550px;
   }
 }
 /* End Hero Section */

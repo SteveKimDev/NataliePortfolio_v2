@@ -15,7 +15,7 @@ const HeroSection = () => (
   <div>
     <Row>
       <Col lg={6}>
-        <Parallax speed={-5}>
+        <Parallax speed={5}>
           <HersoContent />
         </Parallax>
       </Col>
@@ -30,7 +30,7 @@ const HeroSection = () => (
         </Parallax>
 
         {/* img 2 */}
-        <Parallax speed={2}>
+        <Parallax speed={3}>
           <HeroImg2 />
         </Parallax>
 
@@ -40,7 +40,7 @@ const HeroSection = () => (
         </Parallax>
 
         {/* img 4 */}
-        <Parallax speed={5}>
+        <Parallax speed={1}>
           <HeroImg4 />
         </Parallax>
       </Col>
