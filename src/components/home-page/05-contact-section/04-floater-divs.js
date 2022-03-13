@@ -5,27 +5,31 @@ import * as ContactStyle from './contact.module.css';
 
 const FloaterDivs = () => (
   <div className={`floater-fade-in`}>
-    {/* group 1 */}
-    <Parallax speed={-3}>
-      <div
-        className={`purple-3d purple-floater1 floater-30 ${ContactStyle.floaterOne}`}
-      />
-      <div
-        className={`purple-3d purple-floater0 floater-15 ${ContactStyle.floaterTwo}`}
-      />
-    </Parallax>
-
-    {/* group 2 */}
+    {/* floater 1 */}
     <Parallax speed={-2}>
       <div
-        className={`purple-3d purple-floater1 floater-15 ${ContactStyle.floaterThree}`}
+        className={`purple-3d purple-floater1 floater-30 ${ContactStyle.floater1}`}
       />
     </Parallax>
 
-    {/* group 3 */}
-    <Parallax speed={-4}>
+    {/* floater 2 */}
+    <Parallax speed={-5}>
       <div
-        className={`purple-3d purple-floater05 floater-10 ${ContactStyle.floaterFour}`}
+        className={`purple-3d purple-floater0 floater-15 ${ContactStyle.floater2}`}
+      />
+    </Parallax>
+
+    {/* floater 3 */}
+    <Parallax speed={2}>
+      <div
+        className={`purple-3d purple-floater1 floater-15 ${ContactStyle.floater3}`}
+      />
+    </Parallax>
+
+    {/* floater 4 */}
+    <Parallax speed={5}>
+      <div
+        className={`purple-3d purple-floater05 floater-10 ${ContactStyle.floater4}`}
       />
     </Parallax>
   </div>

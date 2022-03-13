@@ -13,28 +13,28 @@
   margin: auto;
 }
 
-.floater-one {
+.floater1 {
   position: absolute !important;
   bottom: 150px;
-  left: 10%;
+  left: 3vw;
 }
 
-.floater-two {
+.floater2 {
   position: absolute !important;
   bottom: 190px;
-  left: 25%;
+  left: 13vw;
 }
 
-.floater-three {
+.floater3 {
+  position: absolute !important;
+  bottom: 20px;
+  right: 15vw;
+}
+
+.floater4 {
   position: absolute !important;
   bottom: 50px;
-  right: 35%;
-}
-
-.floater-four {
-  position: absolute !important;
-  bottom: -50px;
-  left: 15%;
+  left: 3vw;
 }
 
 .contact-description {
@@ -45,6 +45,18 @@
   .float-box {
     margin-left: 200px;
     margin-right: 200px;
+  }
+  .floater1 {
+    left: 5vw;
+  }
+  .floater2 {
+    left: 12vw;
+  }
+  .floater3 {
+    right: 13vw;
+  }
+  .floater4 {
+    left: 5vw;
   }
 }
 
@@ -60,21 +72,21 @@
     margin-bottom: 50px;
     margin-right: 50px;
   }
-  .floater-one {
-    bottom: 230px;
-    left: 20%;
+  .floater1 {
+    bottom: 200px;
+    left: 17vw;
   }
-  .floater-two {
-    bottom: 270px;
-    left: 32%;
+  .floater2 {
+    bottom: 250px;
+    left: 35vw;
   }
-  .floater-three {
-    bottom: 130px;
-    right: 28%;
+  .floater3 {
+    bottom: 80px;
+    right: 25vw;
   }
-  .floater-four {
-    bottom: 40px;
-    left: 20%;
+  .floater4 {
+    bottom: 50px;
+    left: 17vw;
   }
   .contact-title,
   .contact-description {
@@ -92,30 +104,42 @@
   .contact-img {
     margin-right: 100px;
   }
-  .floater-three {
-    right: 32%;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .floater1 {
+    bottom: 220px;
+    left: 10vw;
+  }
+  .floater2 {
+    bottom: 260px;
+    left: 30vw;
+  }
+  .floater4 {
+    left: 13vw;
   }
 }
 
 @media (max-width: 575px) {
   .contact-img {
     margin-right: auto;
+    margin-left: 25px;
     width: 250px;
   }
-  .floater-one {
-    bottom: 200px;
+  .floater1 {
+    bottom: 180px;
     left: 0;
   }
-  .floater-two {
-    bottom: 240px;
-    left: 25%;
+  .floater2 {
+    bottom: 220px;
+    left: 25vw;
   }
-  .floater-three {
-    bottom: 110px;
+  .floater3 {
+    bottom: 70px;
     right: 32%;
   }
-  .floater-four {
-    bottom: 60px;
+  .floater4 {
+    bottom: 50px;
     left: 0;
   }
 }
