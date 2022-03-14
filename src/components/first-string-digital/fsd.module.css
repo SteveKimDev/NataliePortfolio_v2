@@ -43,77 +43,150 @@
   padding-bottom: 100px;
 }
 
+.webstack-explination-div,
 .lessons-learned-div {
   margin-top: 50px;
 }
 
 .floater1 {
   position: absolute !important;
-  bottom: 35vh;
+  bottom: 250px;
   left: 12vw;
 }
 
 .floater2 {
   position: absolute !important;
-  bottom: 33vh;
+  bottom: 250px;
   left: 16vw;
 }
 
 .floater3 {
   position: absolute !important;
-  bottom: 13vh;
+  bottom: 250px;
   left: 8vw;
 }
 
 .floater4 {
   position: absolute !important;
-  bottom: 3vh;
+  bottom: 30px;
   left: 16vw;
 }
 
 .floater5 {
   position: absolute !important;
-  bottom: 30vh;
+  bottom: 150px;
   right: 12vw;
 }
 
 .floater6 {
   position: absolute !important;
-  bottom: 10vh;
-  right: 10vw;
+  bottom: 100px;
+  right: 15vw;
 }
 
 .floater7 {
   position: absolute !important;
-  bottom: 5vh;
-  right: 13vw;
+  bottom: 230px;
+  right: 15vw;
 }
 
-/* iPad Pro 12 Portrait View */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 1920px) {
   .floater1 {
-    bottom: 20vh;
-    left: 10vw;
+    bottom: 400px;
+    left: 14vw;
   }
   .floater2 {
-    bottom: 18vh;
+    bottom: 380px;
+    left: 18vw;
   }
   .floater3 {
-    bottom: 8vh;
+    bottom: 360px;
+    left: 10vw;
   }
   .floater4 {
-    bottom: 1vh;
+    bottom: 70px;
+    left: 18vw;
   }
   .floater5 {
-    bottom: 17vh;
+    bottom: 370px;
+    right: 13vw;
   }
   .floater6 {
-    bottom: 5vh;
-    right: 9vw;
+    bottom: 120px;
+    right: 16vw;
   }
   .floater7 {
-    bottom: 2vh;
+    bottom: 420px;
+    right: 18vw;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .floater1 {
+    bottom: 310px;
+    left: 13vw;
+  }
+  .floater2 {
+    bottom: 290px;
+    left: 17vw;
+  }
+  .floater3 {
+    bottom: 290px;
+    left: 9vw;
+  }
+  .floater4 {
+    bottom: 50px;
+    left: 18vw;
+  }
+  .floater5 {
+    bottom: 250px;
+  }
+  .floater6 {
+    bottom: 120px;
     right: 15vw;
+  }
+  .floater7 {
+    bottom: 330px;
+    right: 16vw;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+  .floater1 {
+    bottom: 270px;
+  }
+  .floater5 {
+    bottom: 170px;
+  }
+  .floater7 {
+    bottom: 250px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .floater1 {
+    left: 15vw;
+  }
+  .floater2 {
+    left: 19vw;
+  }
+  .floater3 {
+    left: 10vw;
+  }
+  .floater4 {
+    bottom: 40px;
+    left: 18vw;
+  }
+  .floater5 {
+    bottom: 230px;
+  }
+  .floater6 {
+    right: 16vw;
+  }
+
+  .floater7 {
+    bottom: 290px;
+    right: 18vw;
   }
 }
 
@@ -150,22 +223,22 @@
     margin-left: 0;
   }
   .floater1 {
-    bottom: 25vh;
-    left: 1vw;
+    bottom: 290px;
+    left: 0;
   }
   .floater2 {
-    bottom: 31vh;
+    bottom: 350px;
   }
   .floater3 {
-    bottom: 10vh;
+    bottom: 80px;
     left: 3vw;
   }
   .floater4 {
-    bottom: -6vh;
+    bottom: 340px;
     left: 25vw;
   }
   .floater5 {
-    bottom: 31vh;
+    bottom: 330px;
     right: 30vw;
   }
   .floater6 {
@@ -176,12 +249,27 @@
   }
 }
 
-@media (max-width: 767px) {
-  .floater2 {
-    bottom: 29.5vh;
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (min-device-height: 1194px) and (max-device-height: 1194px) and (min-width: 834px) and (max-width: 834px) and (orientation: portrait) {
+  .floater4 {
+    bottom: 360px;
   }
   .floater5 {
-    bottom: 30vh;
+    bottom: 370px;
+  }
+}
+
+@media (max-width: 767px) {
+  .floater1 {
+    bottom: 240px;
+  }
+  .floater2 {
+    bottom: 320px;
+  }
+  .floater4 {
+    bottom: 320px;
+  }
+  .floater5 {
+    bottom: 320px;
   }
 }
 
@@ -215,14 +303,29 @@
   .stack-col6 {
     margin-bottom: 30px;
   }
+  .floater1 {
+    bottom: 220px;
+  }
+  .floater2 {
+    bottom: 220px;
+  }
   .floater3 {
-    bottom: 0vh;
+    bottom: 0;
     left: -1vh;
   }
+  .floater4 {
+    bottom: 230px;
+    left: 45vw;
+  }
   .floater5 {
-    bottom: 25vh;
+    bottom: 200px;
+    right: -1vw;
+  }
+  .floater6 {
+    bottom: 20px;
   }
   .floater7 {
-    bottom: -8vh;
+    bottom: -50px;
+    right: 20vw;
   }
 }

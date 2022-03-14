@@ -74,7 +74,7 @@ const SkillsAndExperience = () => (
         </Col>
       </Row>
     </Parallax>
-    <div className={`previous-page-div`}>
+    <div className={`previous-page-div`} style={{ width: '155px' }}>
       <Link to='/#work'>
         <BackSVG className={`back-svg`} />
         Previous Page

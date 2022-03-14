@@ -28,75 +28,132 @@
 
 .floater1 {
   position: absolute !important;
-  bottom: 30vh;
-  left: 9.5vw;
+  bottom: 230px;
+  left: 12vw;
 }
 
 .floater2 {
   position: absolute !important;
-  bottom: 35vh;
-  left: 14vw;
+  bottom: 300px;
+  left: 16vw;
 }
 
 .floater3 {
   position: absolute !important;
-  bottom: 13vh;
-  left: 8vw;
+  bottom: 80px;
+  left: 16vw;
 }
 
 .floater4 {
   position: absolute !important;
   bottom: 0;
-  left: 17vw;
+  left: 13vw;
 }
 
 .floater5 {
   position: absolute !important;
-  bottom: 30vh;
-  right: 10vw;
+  bottom: 230px;
+  right: 15vw;
 }
 
 .floater6 {
   position: absolute !important;
-  bottom: 25vh;
-  right: 6vw;
+  bottom: 190px;
+  right: 10vw;
 }
 
 .floater7 {
   position: absolute !important;
-  bottom: 5vh;
-  right: 16vw;
+  bottom: 40px;
+  right: 14vw;
 }
 
-/* iPad Pro 12 Portrait View */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 1920px) {
   .floater1 {
-    bottom: 15vh;
-    left: 9.5vw;
+    bottom: 370px;
   }
   .floater2 {
-    bottom: 18vh;
-    left: 16vw;
+    bottom: 430px;
   }
   .floater3 {
-    bottom: 6vh;
-    left: 7vw;
-  }
-  .floater4 {
-    bottom: 0;
-    left: 19vw;
+    bottom: 150px;
   }
   .floater5 {
-    bottom: 14vh;
-    right: 13vw;
+    bottom: 420px;
   }
   .floater6 {
-    bottom: 12vh;
-    right: 8vw;
+    bottom: 330px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .floater1 {
+    bottom: 300px;
+  }
+  .floater2 {
+    bottom: 380px;
+  }
+  .floater3 {
+    bottom: 100px;
+  }
+  .floater4 {
+    bottom: -20px;
+  }
+  .floater5 {
+    bottom: 320px;
+  }
+  .floater6 {
+    bottom: 250px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+  .floater1 {
+    bottom: 260px;
+  }
+  .floater2 {
+    bottom: 320px;
+  }
+  .floater3 {
+    bottom: 90px;
+  }
+  .floater4 {
+    bottom: -20px;
+  }
+
+  .floater5 {
+    bottom: 270px;
+  }
+  .floater6 {
+    bottom: 210px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .floater1 {
+    bottom: 210px;
+  }
+  .floater2 {
+    bottom: 290px;
+    left: 18vw;
+  }
+  .floater3 {
+    bottom: 60px;
+    left: 17vw;
+  }
+  .floater4 {
+    left: 15vw;
+  }
+  .floater5 {
+    bottom: 220px;
+    right: 18vw;
+  }
+  .floater6 {
+    bottom: 180px;
+    right: 11vw;
   }
   .floater7 {
-    bottom: 2vh;
-    right: 18vw;
+    right: 16vw;
   }
 }
 
@@ -113,47 +170,38 @@
     padding-left: 0;
   }
   .floater1 {
-    bottom: 20vh;
-    left: 2vw;
+    bottom: 240px;
+    left: 1vw;
   }
   .floater2 {
-    bottom: 32vh;
+    bottom: 360px;
     left: 16vw;
   }
   .floater3 {
-    bottom: 10vh;
-    left: 0;
+    bottom: 50px;
+    left: -1vw;
   }
   .floater4 {
-    bottom: -5vh;
-    left: 20vw;
+    bottom: 50px;
+    left: 4vw;
   }
   .floater5 {
-    bottom: 31vh;
-    right: 30vw;
+    bottom: 270px;
+    right: 2vw;
   }
   .floater6 {
-    bottom: 12vh;
-    right: 4vw;
+    bottom: 100px;
+    right: -2vw;
   }
   .floater7 {
     bottom: 8vh;
-    right: 0vw;
+    right: 5vw;
   }
 }
 
 @media (max-width: 767px) {
   .floater2 {
-    bottom: 29vh;
-    left: 16vw;
-  }
-  .floater4 {
-    bottom: -5vh;
-    left: 20vw;
-  }
-  .floater5 {
-    bottom: 29vh;
-    right: 30vw;
+    bottom: 330px;
   }
 }
 
@@ -169,31 +217,31 @@
     padding-top: 100px;
   }
   .floater1 {
-    bottom: 26vh;
+    bottom: 220px;
     left: 2vw;
   }
   .floater2 {
-    bottom: 32vh;
+    bottom: 29vh;
     left: 18vw;
   }
   .floater3 {
     bottom: -8vh;
-    left: 2vw;
-  }
-  .floater4 {
-    bottom: -5vh;
     left: 30vw;
   }
+  .floater4 {
+    bottom: 0;
+    left: 0;
+  }
   .floater5 {
-    bottom: 30vh;
-    right: 30vw;
+    bottom: 230px;
+    right: -1vw;
   }
   .floater6 {
-    bottom: 28vh;
-    right: 7vw;
+    bottom: 220px;
+    right: 30vw;
   }
   .floater7 {
-    bottom: -6vh;
-    right: 5vw;
+    bottom: 50px;
+    right: 0;
   }
 }

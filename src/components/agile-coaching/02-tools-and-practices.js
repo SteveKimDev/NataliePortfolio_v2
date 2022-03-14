@@ -108,7 +108,7 @@ const ToolsAndPractices = () => (
         </AnimationOnScroll>
       </Col>
     </Row>
-    <div className={`previous-page-div`}>
+    <div className={`previous-page-div`} style={{ width: '155px' }}>
       <Link to='/#work'>
         <BackSVG className={`back-svg`} />
         Previous Page
