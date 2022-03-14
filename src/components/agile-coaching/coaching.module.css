@@ -56,89 +56,89 @@
   color: #222222;
 }
 
-.floater-one {
+.floater1 {
   position: absolute !important;
   top: 50px;
   left: 30px;
 }
 
-.floater-two {
+.floater2 {
   position: absolute !important;
   top: 80px;
   right: 30px;
 }
 
-.floater-three {
+.floater3 {
   position: absolute !important;
-  top: 230px;
-  left: 20px;
+  top: 250px;
+  left: 60px;
 }
-.floater-four {
+.floater4 {
   position: absolute !important;
-  top: 50px;
-  right: 50px;
+  top: 40px;
+  right: 90px;
 }
 
-.floater-five {
+.floater5 {
   position: absolute !important;
   top: 80px;
   right: 30px;
 }
 
-.floater-six {
+.floater6 {
   position: absolute !important;
-  top: 230px;
-  left: 20px;
+  top: 260px;
+  left: 50px;
 }
 
-.floater-seven {
+.floater7 {
   position: absolute !important;
   top: 50px;
   left: 10px;
 }
 
-.floater-eight {
+.floater8 {
   position: absolute !important;
   top: 190px;
-  right: 30px;
+  right: 25px;
 }
 
-.floater-nine {
+.floater9 {
   position: absolute !important;
   top: 270px;
   left: 70px;
 }
-.floater-ten {
+.floater10 {
   position: absolute !important;
-  top: 50px;
+  top: 70px;
   left: 30px;
 }
 
-.floater-eleven {
+.floater11 {
   position: absolute !important;
   top: 70px;
   right: 30px;
 }
 
-.floater-twelve {
+.floater12 {
   position: absolute !important;
   top: 250px;
   left: 40px;
 }
 
-.floater-thirteen {
+.floater13 {
   position: absolute !important;
-  top: 50px;
+  top: 100px;
   left: 30px;
 }
 
-.floater-fourteen {
+.floater14 {
   position: absolute !important;
   top: 90px;
   left: 70px;
 }
 
-.floater-fifteen {
+.floater15 {
   position: absolute !important;
   top: 250px;
   right: 80px;
@@ -172,63 +172,63 @@
     width: 45%;
     left: 4vw;
   }
-  .floater-one {
+  .floater1 {
     top: 0;
     left: 80px;
   }
-  .floater-two {
+  .floater2 {
     top: 30px;
     right: 70px;
   }
-  .floater-three {
-    top: 180px;
-    left: 65px;
+  .floater3 {
+    top: 215px;
+    left: 110px;
   }
-  .floater-four {
-    top: 0;
-    right: 90px;
+  .floater4 {
+    top: -10px;
+    right: 145px;
   }
-  .floater-five {
+  .floater5 {
     top: 30px;
     right: 70px;
   }
-  .floater-six {
-    top: 190px;
-    left: 65px;
+  .floater6 {
+    top: 220px;
+    left: 100px;
   }
-  .floater-seven {
+  .floater7 {
     top: 10px;
     left: 50px;
   }
-  .floater-eight {
+  .floater8 {
     top: 150px;
     right: 70px;
   }
-  .floater-nine {
+  .floater9 {
     top: 220px;
     left: 105px;
   }
-  .floater-ten {
+  .floater10 {
     top: 10px;
     left: 70px;
   }
-  .floater-eleven {
+  .floater11 {
     top: 15px;
     right: 70px;
   }
-  .floater-twelve {
+  .floater12 {
     top: 200px;
     left: 60px;
   }
-  .floater-thirteen {
-    top: 30px;
+  .floater13 {
+    top: 90px;
     left: 70px;
   }
-  .floater-fourteen {
+  .floater14 {
     top: 70px;
     left: 120px;
   }
-  .floater-fifteen {
+  .floater15 {
     top: 200px;
     right: 130px;
   }
@@ -264,63 +264,63 @@
     width: 55%;
     left: 3vw;
   }
-  .floater-one {
+  .floater1 {
     top: 30px;
     left: 50px;
   }
-  .floater-two {
+  .floater2 {
     top: 60px;
     right: 40px;
   }
-  .floater-three {
-    top: 210px;
-    left: 40px;
+  .floater3 {
+    top: 230px;
+    left: 80px;
   }
-  .floater-four {
-    top: 20px;
-    right: 70px;
+  .floater4 {
+    top: 10px;
+    right: 110px;
   }
-  .floater-five {
+  .floater5 {
     top: 60px;
     right: 35px;
   }
-  .floater-six {
-    top: 210px;
-    left: 35px;
+  .floater6 {
+    top: 240px;
+    left: 70px;
   }
-  .floater-seven {
+  .floater7 {
     top: 30px;
     left: 30px;
   }
-  .floater-eight {
+  .floater8 {
     top: 150px;
     right: 40px;
   }
-  .floater-nine {
+  .floater9 {
     top: 245px;
     left: 75px;
   }
-  .floater-ten {
+  .floater10 {
     top: 40px;
     left: 40px;
   }
-  .floater-eleven {
+  .floater11 {
     top: 55px;
     right: 40px;
   }
-  .floater-twelve {
+  .floater12 {
     top: 220px;
     left: 50px;
   }
-  .floater-thirteen {
-    top: 30px;
+  .floater13 {
+    top: 90px;
     left: 40px;
   }
-  .floater-fourteen {
+  .floater14 {
     top: 70px;
     left: 80px;
   }
-  .floater-fifteen {
+  .floater15 {
     top: 220px;
     right: 100px;
   }
@@ -367,69 +367,69 @@
     transform: translateY(0);
     top: 0;
   }
-  .floater-one {
+  .floater1 {
     width: 15px;
     height: 15px;
     top: 5px;
     left: 25px;
   }
-  .floater-two {
+  .floater2 {
     top: 20px;
     right: 50px;
   }
-  .floater-three {
+  .floater3 {
     width: 10px;
     height: 10px;
-    top: 140px;
-    left: 20px;
+    top: 160px;
+    left: 50px;
   }
-  .floater-four {
-    top: 0px;
-    right: 70px;
+  .floater4 {
+    top: -5px;
+    right: 100px;
   }
-  .floater-five {
+  .floater5 {
     top: 30px;
     right: 35px;
   }
-  .floater-six {
-    top: 150px;
-    left: 15px;
+  .floater6 {
+    top: 170px;
+    left: 40px;
   }
-  .floater-seven {
+  .floater7 {
     top: 10px;
     left: 5px;
   }
 
-  .floater-eight {
+  .floater8 {
     top: 100px;
     right: 40px;
   }
 
-  .floater-nine {
-    top: 180px;
-    left: 45px;
+  .floater9 {
+    top: 170px;
+    left: 50px;
   }
-  .floater-ten {
+  .floater10 {
     top: 10px;
     left: 20px;
   }
-  .floater-eleven {
+  .floater11 {
     top: 15px;
     right: 40px;
   }
-  .floater-twelve {
+  .floater12 {
     top: 170px;
     left: 30px;
   }
-  .floater-thirteen {
-    top: 20px;
-    left: 10px;
+  .floater13 {
+    top: 60px;
+    left: 15px;
   }
-  .floater-fourteen {
+  .floater14 {
     top: 40px;
     left: 60px;
   }
-  .floater-fifteen {
+  .floater15 {
     top: 160px;
     right: 85px;
   }
@@ -470,69 +470,65 @@
     transform: translateY(0);
     top: 0;
   }
-  .floater-one {
-    width: 15px;
-    height: 15px;
+  .floater1 {
     top: 0;
     left: 60px;
   }
-  .floater-two {
+  .floater2 {
     top: 15px;
     right: 70px;
   }
-  .floater-three {
-    width: 10px;
-    height: 10px;
-    top: 145px;
-    left: 50px;
+  .floater3 {
+    top: 170px;
+    left: 80px;
   }
-  .floater-four {
-    top: 0px;
-    right: 90px;
+  .floater4 {
+    top: -5px;
+    right: 130px;
   }
-  .floater-five {
+  .floater5 {
     top: 30px;
     right: 65px;
   }
-  .floater-six {
-    top: 150px;
-    left: 45px;
+  .floater6 {
+    top: 170px;
+    left: 80px;
   }
-  .floater-seven {
+  .floater7 {
     top: 10px;
     left: 50px;
   }
 
-  .floater-eight {
+  .floater8 {
     top: 100px;
     right: 50px;
   }
 
-  .floater-nine {
+  .floater9 {
     top: 175px;
     left: 95px;
   }
-  .floater-ten {
+  .floater10 {
     top: 10px;
     left: 50px;
   }
-  .floater-eleven {
+  .floater11 {
     top: 20px;
     right: 60px;
   }
-  .floater-twelve {
+  .floater12 {
     top: 160px;
     left: 60px;
   }
-  .floater-thirteen {
-    top: 20px;
-    left: 50px;
+  .floater13 {
+    top: 50px;
+    left: 60px;
   }
-  .floater-fourteen {
+  .floater14 {
     top: 40px;
     left: 100px;
   }
-  .floater-fifteen {
+  .floater15 {
     top: 160px;
     right: 115px;
   }
@@ -555,65 +551,65 @@
     width: 60%;
     left: 2.5vw;
   }
-  .floater-one {
+  .floater1 {
     top: 10px;
     left: 10px;
   }
-  .floater-two {
+  .floater2 {
     top: 30px;
     right: 30px;
   }
-  .floater-three {
-    top: 140px;
-    left: 5px;
+  .floater3 {
+    top: 170px;
+    left: 40px;
   }
-  .floater-four {
-    top: 0px;
-    right: 50px;
+  .floater4 {
+    top: -5px;
+    right: 90px;
   }
-  .floater-five {
+  .floater5 {
     top: 30px;
     right: 35px;
   }
-  .floater-six {
-    top: 160px;
-    left: 15px;
+  .floater6 {
+    top: 170px;
+    left: 40px;
   }
-  .floater-seven {
+  .floater7 {
     top: 10px;
     left: 0;
   }
 
-  .floater-eight {
+  .floater8 {
     top: 100px;
-    right: 20px;
+    right: 30px;
   }
 
-  .floater-nine {
+  .floater9 {
     top: 170px;
     left: 35px;
   }
-  .floater-ten {
+  .floater10 {
     top: 10px;
     left: 10px;
   }
-  .floater-eleven {
+  .floater11 {
     top: 20px;
     right: 30px;
   }
-  .floater-twelve {
+  .floater12 {
     top: 160px;
     left: 30px;
   }
-  .floater-thirteen {
-    top: 20px;
+  .floater13 {
+    top: 50px;
     left: 10px;
   }
-  .floater-fourteen {
+  .floater14 {
     top: 40px;
     left: 50px;
   }
-  .floater-fifteen {
+  .floater15 {
     top: 160px;
     right: 70px;
   }
@@ -624,53 +620,53 @@
   .tab-col2 {
     height: 200px;
   }
-  .floater-one {
+  .floater1 {
     top: 20px;
     left: 10px;
   }
-  .floater-two {
+  .floater2 {
     top: 40px;
     right: 30px;
   }
-  .floater-three {
-    top: 150px;
-    left: 5px;
+  .floater3 {
+    top: 170px;
+    left: 30px;
   }
-  .floater-four {
-    top: 20px;
-    right: 50px;
+  .floater4 {
+    top: 10px;
+    right: 70px;
   }
-  .floater-five {
+  .floater5 {
     top: 40px;
     right: 25px;
   }
-  .floater-six {
-    top: 160px;
-    left: 15px;
+  .floater6 {
+    top: 170px;
+    left: 30px;
   }
-  .floater-seven {
+  .floater7 {
     top: 30px;
     left: -5px;
   }
 
-  .floater-eight {
+  .floater8 {
     top: 110px;
     right: 20px;
   }
 
-  .floater-nine {
+  .floater9 {
     top: 180px;
     left: 35px;
   }
-  .floater-ten {
+  .floater10 {
     top: 30px;
     left: 10px;
   }
-  .floater-eleven {
+  .floater11 {
     top: 20px;
     right: 30px;
   }
-  .floater-twelve {
+  .floater12 {
     top: 170px;
     left: 30px;
   }
@@ -715,68 +711,69 @@
   .tab-last {
     width: 90%;
   }
-  .floater-one {
+  .floater1 {
     top: -190px;
-    left: 60px;
+    left: 50px;
   }
-  .floater-two {
-    top: -180px;
+  .floater2 {
+    top: -190px;
     right: 80px;
   }
-  .floater-three {
-    top: -70px;
-    left: 70px;
+  .floater3 {
+    top: -40px;
+    left: 100px;
   }
-  .floater-four {
+  .floater4 {
     top: -190px;
     right: 70px;
   }
-  .floater-five {
+  .floater5 {
     top: -150px;
-    right: 45px;
+    right: auto;
+    left: 50px;
   }
-  .floater-six {
+  .floater6 {
     top: -30px;
     left: 80px;
   }
-  .floater-seven {
+  .floater7 {
     top: -160px;
     left: 55px;
   }
 
-  .floater-eight {
+  .floater8 {
     top: -95px;
     right: inherit;
     left: 30px;
   }
 
-  .floater-nine {
+  .floater9 {
     top: -50px;
     right: 60px;
     left: inherit;
   }
-  .floater-ten {
+  .floater10 {
     top: -160px;
     left: 60px;
   }
-  .floater-eleven {
+  .floater11 {
     top: -140px;
     right: 40px;
   }
-  .floater-twelve {
+  .floater12 {
     top: -40px;
     left: 60px;
   }
-  .floater-thirteen {
-    top: -140px;
+  .floater13 {
+    top: -120px;
     left: 70px;
   }
-  .floater-fourteen {
-    top: -110px;
+  .floater14 {
+    top: -130px;
     left: 110px;
   }
-  .floater-fifteen {
+  .floater15 {
     top: -50px;
-    right: 70px;
+    right: 80px;
   }
 }

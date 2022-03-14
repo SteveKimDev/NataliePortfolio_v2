@@ -5,24 +5,24 @@ import * as CoachingStyle from './coaching.module.css';
 
 const FloaterDivs = () => (
   <div>
-    {/* group 1 */}
+    {/* floater 13 */}
     <Parallax speed={-1}>
       <div
-        className={`purple-3d purple-floater05 floater-20 ${CoachingStyle.floaterThirteen}`}
+        className={`purple-3d purple-floater05 floater-20 ${CoachingStyle.floater13}`}
       />
     </Parallax>
 
-    {/* group 2 */}
+    {/* floater 14 */}
     <Parallax speed={-1}>
       <div
-        className={`purple-3d purple-floater1 floater-10 ${CoachingStyle.floaterFourteen}`}
+        className={`purple-3d purple-floater1 floater-10 ${CoachingStyle.floater14}`}
       />
     </Parallax>
 
-    {/* group 3 */}
+    {/* floater 15 */}
     <Parallax speed={1}>
       <div
-        className={`purple-3d purple-floater0 floater-15 ${CoachingStyle.floaterFifteen}`}
+        className={`purple-3d purple-floater0 floater-15 ${CoachingStyle.floater15}`}
       />
     </Parallax>
   </div>
