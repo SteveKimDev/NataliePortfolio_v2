@@ -10,7 +10,7 @@ const Intro = () => (
     <Parallax speed={-5}>
       <FadedLogoImg />
     </Parallax>
-    <Parallax speed={5}>
+    <Parallax speed={2.5}>
       <AnimationOnScroll
         animateIn='animate__fadeIn'
         animateOut='animate__fadeOut'

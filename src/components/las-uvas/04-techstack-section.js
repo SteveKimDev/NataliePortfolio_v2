@@ -13,7 +13,7 @@ import * as FSDStyle from '../first-string-digital/fsd.module.css';
 
 const TechStackSection = () => (
   <div className={`section section-bkgd-color ${FSDStyle.techStackSection}`}>
-    <Parallax speed={5}>
+    <Parallax speed={-2.5}>
       <AnimationOnScroll
         animateIn='animate__fadeIn'
         animateOut='animate__fadeOut'

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { Parallax } from 'react-scroll-parallax';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Row, Col } from 'react-bootstrap';
 import TabOne from './03-tab1';
@@ -15,20 +14,18 @@ import * as CoachingStyle from './coaching.module.css';
 
 const ToolsAndPractices = () => (
   <div className={`section section-bkgd-color ${CoachingStyle.toolsSection}`}>
-    <Parallax speed={2.5}>
-      <AnimationOnScroll
-        animateIn='animate__fadeIn'
-        animateOut='animate__fadeOut'
-        offset={100}
-      >
-        <h4 className={`section-subtitle mb-1rem`}>Tools &amp; Practices</h4>
-        <p>
-          The systems and processes I use better enable agile teams to succeed
-          at delivering high-value, high-quality products for their
-          stakeholders. Some of these systems &amp; processes include:
-        </p>
-      </AnimationOnScroll>
-    </Parallax>
+    <AnimationOnScroll
+      animateIn='animate__fadeIn'
+      animateOut='animate__fadeOut'
+      offset={100}
+    >
+      <h4 className={`section-subtitle mb-1rem`}>Tools &amp; Practices</h4>
+      <p>
+        The systems and processes I use better enable agile teams to succeed at
+        delivering high-value, high-quality products for their stakeholders.
+        Some of these systems &amp; processes include:
+      </p>
+    </AnimationOnScroll>
     <Row>
       {/* tab 1 */}
       <Col xl={6} className={`${CoachingStyle.tab}`}>

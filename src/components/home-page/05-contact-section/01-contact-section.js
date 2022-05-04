@@ -10,7 +10,7 @@ import * as ContactStyle from './contact.module.css';
 
 const ContactSection = () => (
   <div className={`section`}>
-    <Parallax speed={2.5}>
+    <Parallax speed={5} translateY={['-25px', '50px']}>
       <AnimationOnScroll
         animateIn='animate__fadeIn'
         animateOut='animate__fadeOut'

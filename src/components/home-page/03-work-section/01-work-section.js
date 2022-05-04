@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { Parallax } from 'react-scroll-parallax';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Row, Col } from 'react-bootstrap';
 import WorkContent from './02-work-content';
@@ -17,9 +16,7 @@ const WorkSection = () => (
     className={`section section-bkgd-color ${WorkStyle.workSection}`}
     id='work'
   >
-    <Parallax speed={5}>
-      <WorkContent />
-    </Parallax>
+    <WorkContent />
 
     <Row className={WorkStyle.workRow}>
       {/* tab 1 */}

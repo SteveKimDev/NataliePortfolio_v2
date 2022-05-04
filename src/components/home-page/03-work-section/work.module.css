@@ -187,12 +187,12 @@
     left: 0;
   }
   .floater2 {
-    bottom: 690px;
-    left: 8vw;
+    bottom: 350px;
+    left: 0vw;
   }
   .floater3 {
-    bottom: 650px;
-    right: 5vw;
+    bottom: 200px;
+    right: 2vw;
   }
   .floater4 {
     bottom: 625px;
@@ -242,8 +242,7 @@
     width: 100%;
   }
   .floater1 {
-    bottom: 1450px;
-    left: 7vw;
+    display: none;
   }
   .floater2 {
     bottom: 1225px;
@@ -251,7 +250,7 @@
     right: 8vw;
   }
   .floater3 {
-    bottom: 500px;
+    bottom: 700px;
     right: 5vw;
   }
   .floater4 {
@@ -265,7 +264,7 @@
     left: 10vw;
   }
   .floater6 {
-    bottom: 325px;
+    bottom: 20px;
     left: 5vw;
   }
 

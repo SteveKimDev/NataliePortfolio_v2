@@ -13,7 +13,7 @@ const WebStackLessonsSection = () => (
   <div
     className={`section section-bkgd-color ${FSDStyle.webstackLessonsSection}`}
   >
-    <Parallax speed={5}>
+    <Parallax speed={-2.5}>
       <AnimationOnScroll
         animateIn='animate__fadeIn'
         animateOut='animate__fadeOut'

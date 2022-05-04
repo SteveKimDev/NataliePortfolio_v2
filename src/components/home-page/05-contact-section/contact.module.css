@@ -86,7 +86,7 @@
   }
   .floater4 {
     bottom: 50px;
-    left: 17vw;
+    left: 20vw;
   }
   .contact-title,
   .contact-description {
@@ -127,12 +127,11 @@
     width: 250px;
   }
   .floater1 {
-    bottom: 180px;
-    left: 0;
-  }
-  .floater2 {
     bottom: 220px;
     left: 25vw;
+  }
+  .floater2 {
+    display: none;
   }
   .floater3 {
     bottom: 70px;
@@ -140,6 +139,6 @@
   }
   .floater4 {
     bottom: 50px;
-    left: 0;
+    left: 4vw;
   }
 }

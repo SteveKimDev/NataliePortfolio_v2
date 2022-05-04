@@ -5,6 +5,7 @@ import * as StoryStyle from './story.module.css';
 
 const StoryContent = () => (
   <div>
+    {/* Title */}
     <AnimationOnScroll
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'
@@ -16,6 +17,7 @@ const StoryContent = () => (
       <h2 className={`section-title text-align-center mb-2rem`}>True Story</h2>
     </AnimationOnScroll>
 
+    {/* Description */}
     <AnimationOnScroll
       animateIn='animate__fadeIn'
       animateOut='animate__fadeOut'

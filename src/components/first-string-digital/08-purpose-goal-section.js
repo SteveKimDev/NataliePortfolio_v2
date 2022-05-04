@@ -8,7 +8,7 @@ import * as FSDStyle from './fsd.module.css';
 
 const PurposeGoalSection = () => (
   <div className={`section`}>
-    <Parallax speed={5}>
+    <Parallax speed={2.5}>
       <AnimationOnScroll
         animateIn='animate__fadeIn'
         animateOut='animate__fadeOut'

@@ -20,25 +20,21 @@ const HeroSection = () => (
         </Parallax>
       </Col>
       <Col className={` ${HeroStyle.heroCol2}`} lg={6}>
-        <div className={HeroStyle.heroCol2Div}></div>
+        <div className={HeroStyle.heroCol2Div}></div> {/* blue background*/}
         <ProfileImg />
         <FloaterDivs />
-
         {/* img 1 */}
         <Parallax speed={5}>
           <HeroImg1 />
         </Parallax>
-
         {/* img 2 */}
         <Parallax speed={3}>
           <HeroImg2 />
         </Parallax>
-
         {/* img 3 */}
         <Parallax speed={4}>
           <HeroImg3 />
         </Parallax>
-
         {/* img 4 */}
         <Parallax speed={1}>
           <HeroImg4 />

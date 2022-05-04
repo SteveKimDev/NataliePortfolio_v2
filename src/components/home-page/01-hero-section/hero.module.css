@@ -4,6 +4,7 @@
   margin-bottom: 150px;
   margin-left: 100px;
   width: 35vw;
+  height: 425px;
 }
 
 .hero-title {
@@ -468,9 +469,10 @@
 
 @media (max-width: 991px) {
   .hero-col1-div {
-    width: auto;
     margin: 0;
     padding: 50px;
+    width: auto;
+    height: 100%;
   }
   .hero-title {
     font-size: 5rem;
@@ -487,9 +489,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  .hero-col2 {
-    margin-top: 50px;
   }
   .hero-col2-div {
     margin-top: 0;
@@ -521,20 +520,18 @@
     width: 130px;
   }
   .floater1 {
-    bottom: 650px;
-    left: 22vw;
+    display: none;
   }
   .floater2 {
-    bottom: 620px;
-    right: 21vw;
-  }
-  .floater3 {
-    bottom: 520px;
+    bottom: 500px;
     right: 30vw;
   }
+  .floater3 {
+    display: none;
+  }
   .floater4 {
-    bottom: 330px;
-    left: 18vw;
+    bottom: 350px;
+    left: 3vw;
   }
   .floater5 {
     bottom: 320px;
@@ -551,9 +548,6 @@
   }
   .hero-img3 {
     left: 1vw;
-  }
-  .floater1 {
-    left: 16vw;
   }
 }
 
@@ -599,20 +593,16 @@
     right: 1vw;
     width: 100px;
   }
-  .floater1 {
-    bottom: 480px;
-    left: 16vw;
-  }
   .floater2 {
-    bottom: 500px;
-    right: 10vw;
+    display: none;
   }
   .floater3 {
+    display: block;
     bottom: 530px;
     right: 35vw;
   }
   .floater4 {
-    bottom: 230px;
+    bottom: 200px;
     left: 5vw;
   }
   .floater5 {
@@ -632,14 +622,6 @@
     bottom: 400px;
     left: 0;
   }
-  .floater1 {
-    bottom: 520px;
-    left: 13vw;
-  }
-  .floater2 {
-    bottom: 500px;
-    right: 10vw;
-  }
   .floater3 {
     bottom: 520px;
   }
@@ -647,7 +629,7 @@
     bottom: 250px;
   }
   .floater5 {
-    bottom: 550px;
+    bottom: 530px;
   }
 }
 /* End Hero Section */
