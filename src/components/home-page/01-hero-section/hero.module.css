@@ -9,8 +9,7 @@
 
 .hero-title {
   color: #6ccaff;
-  font-size: 5vw;
-  text-transform: uppercase;
+  font-size: 5.6vw;
 }
 
 .hero-subtitle {
@@ -369,9 +368,6 @@
     margin-top: 100px;
     margin-bottom: 100px;
   }
-  .hero-title {
-    font-size: 4.9vw;
-  }
   .profile-img {
     width: 350px;
   }
@@ -385,7 +381,7 @@
     width: auto;
   }
   .hero-title {
-    font-size: 3.7rem;
+    font-size: 7.3vw;
   }
   .hero-subtitle {
     font-size: 0.9rem;
@@ -475,7 +471,7 @@
     height: 100%;
   }
   .hero-title {
-    font-size: 5rem;
+    font-size: 13vw;
     text-align: center;
   }
   .hero-subtitle {
@@ -556,7 +552,7 @@
     padding: 50px 15px;
   }
   .hero-title {
-    font-size: 3.5rem;
+    font-size: 14vw;
   }
   .hero-subtitle {
     font-size: 1.3rem;
@@ -615,9 +611,6 @@
 }
 
 @media (max-width: 390px) {
-  .hero-title {
-    font-size: 3rem;
-  }
   .hero-img1 {
     bottom: 400px;
     left: 0;
